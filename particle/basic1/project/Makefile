@@ -1,4 +1,4 @@
-PROJECT=sprite.movie4
+PROJECT=particle.basic1
 include Objects.in
 TARGET = ../../../bin/$(PROJECT)
 

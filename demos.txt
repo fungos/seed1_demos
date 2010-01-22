@@ -1,0 +1,16 @@
+./gui/basic1
+./gui/basic2
+./gui/basic3
+./gui/basic4
+./input/basic1
+./particle/basic1
+./save/basic1
+./sound/basic1
+./sprite/advanced1
+./sprite/basic1
+./sprite/movie1
+./sprite/movie2
+./sprite/movie3
+./sprite/movie4
+./sprite/movie5
+./video/basic1

@@ -1,27 +1,18 @@
-VERSION = $$Id: $$
-PROJECT=demo
-
+PROJECT=sprite.basic1
 include Objects.in
+TARGET = ../../../bin/$(PROJECT)
 
-TARGET = ../bin/$(PROJECT)
-
-# Flags/Compilers
 GCC = g++
-CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I/home/fungos/dev/SDK/seed/include
+CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I/media/d/SDK//seed/include -I/media/d/SDK//seeddemos/common/sdl
 CDEFS = -D _SDL_ -D _DEBUG_
-LFLAGS = `sdl-config --libs` -L/bin -lSDL_image -lopenal -lGL -lseed -logg -lvorbis -lvorbisfile
-CPPFLAGS = -Weffc++ $(CFLAGS)
-LIBS = -L/home/fungos/dev/SDK/seed
-
-# targets...
+LFLAGS = `sdl-config --libs` -L/bin -lSDL_image -lopenal -lGL -lseed -logg -lvorbis -lvorbisfile -loggz -loggplay
+CPPFLAGS = $(CFLAGS)
+LIBS = -L/media/d/SDK//seed
 
 all:	$(TARGET)
 
 $(TARGET): $(OBJECTS)
 	$(GCC) -o $(TARGET) $(OBJECTS) $(LFLAGS) $(LIBS)
 
-run:
-	$(TARGET)
-
 clean:
-	rm -f $(OBJECTS) $(TARGET) *~ src/*~ core src/inet/*~ src/inet/enet/*~ src/gui/*~ src/sdl/*~
+	rm -f $(OBJECTS) $(TARGET) *~

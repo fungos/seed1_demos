@@ -10,6 +10,11 @@ ResourceManager glMyResources("demo");
 
 
 MyGame::MyGame()
+	: pRenderer(NULL)
+	, sptLogo()
+	, btnRect()
+	, btnPixel()
+	, btnMask()
 {
 }
 

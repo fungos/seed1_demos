@@ -1,0 +1,2 @@
+OBJECTS = ../main.o \
+	../mygame.o \

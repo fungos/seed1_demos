@@ -5,6 +5,8 @@ ResourceManager glMyResources("local");
 
 
 MyGame::MyGame()
+	: pRenderer(NULL)
+	, sptLogo()
 {
 }
 
