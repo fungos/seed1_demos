@@ -114,7 +114,9 @@ BOOL MyGame::Shutdown()
 	pSystem->RemoveListener(this);
 
 	glMyResources.Reset();
-	delete pRenderer;
+	if (pRenderer)
+		delete pRenderer;
+	pRenderer = NULL;
 
 	return TRUE;
 }

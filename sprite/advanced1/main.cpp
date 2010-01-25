@@ -5,11 +5,16 @@ int main(int argc, char **argv)
 	MyGame app;
 
 	Seed::SetGameApp(&app, argc, argv);
-	Seed::Initialize();
-
-	while (!pSystem->IsShuttingDown())
+	if (Seed::Initialize())
 	{
-		Seed::Update();
+		while (!pSystem->IsShuttingDown())
+		{
+			if (!app.HasError())
+			{
+				Seed::Update();
+			}
+			pTimer->Sleep(1);
+		}
 	}
 	Seed::Shutdown();
 

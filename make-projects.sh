@@ -20,7 +20,7 @@ do
 	echo "GCC = g++" >> Makefile
 	echo "CFLAGS = -Wall -fPIC -g \`sdl-config --cflags\` \$(CDEFS) -I$SEEDSDK/seed/include -I$SEEDSDK/seeddemos/common/sdl" >> Makefile
 	echo "CDEFS = -D _SDL_ -D _DEBUG_" >> Makefile
-	echo "LFLAGS = \`sdl-config --libs\` -L/bin -lSDL_image -lopenal -lGL -lseed -logg -lvorbis -lvorbisfile -loggz -loggplay" >> Makefile
+	echo "LFLAGS = \`sdl-config --libs\` -L/bin -lSDL_image -lopenal -lGL -lseed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora" >> Makefile
 	echo "CPPFLAGS = \$(CFLAGS)" >> Makefile
 	echo "LIBS = -L$SEEDSDK/seed" >> Makefile
 	echo "" >> Makefile
@@ -32,7 +32,7 @@ do
 	echo "clean:" >> Makefile
 	echo "	rm -f \$(OBJECTS) \$(TARGET) *~" >> Makefile
 
-	make
+	make clean ; make
 
 	cd $ORIG
 done;

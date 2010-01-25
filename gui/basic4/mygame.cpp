@@ -171,7 +171,9 @@ BOOL MyGame::Update()
 BOOL MyGame::Shutdown()
 {
 	glMyResources.Reset();
-	delete pRenderer;
+	if (pRenderer)
+		delete pRenderer;
+	pRenderer = NULL;
 
 	return TRUE;
 }
