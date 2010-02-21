@@ -112,7 +112,7 @@ void MyGame::OnWidgetPress(const EventWidget *ev)
 }
 
 
-BOOL MyGame::Update()
+BOOL MyGame::Update(f32 dt)
 {
 	return TRUE;
 }

@@ -12,7 +12,7 @@ LIBS = -L/media/d/SDK//seed
 all:	$(TARGET)
 
 $(TARGET): $(OBJECTS)
-	$(GCC) -o $(TARGET) $(OBJECTS) $(LFLAGS) $(LIBS)
+	$(GCC) -o $(TARGET) $(OBJECTS) $(CPPFLAGS) $(LFLAGS) $(LIBS)
 
 clean:
 	rm -f $(OBJECTS) $(TARGET) *~

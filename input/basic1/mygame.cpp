@@ -81,7 +81,7 @@ BOOL MyGame::Initialize()
 	return TRUE;
 }
 
-BOOL MyGame::Update()
+BOOL MyGame::Update(f32 dt)
 {
 	return TRUE;
 }

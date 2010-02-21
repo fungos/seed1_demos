@@ -27,7 +27,7 @@ class MyGame : public IGameApp
 
 		virtual void Setup(int argc, char **argv);
 		virtual BOOL Initialize();
-		virtual BOOL Update();
+		virtual BOOL Update(f32 dt);
 		virtual BOOL Reset();
 		virtual BOOL Shutdown();
 

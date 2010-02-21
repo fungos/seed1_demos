@@ -142,7 +142,7 @@ BOOL MyGame::Initialize()
 }
 
 static u32 a = 0;
-BOOL MyGame::Update()
+BOOL MyGame::Update(f32 dt)
 {
 	a++;
 

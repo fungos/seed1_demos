@@ -27,7 +27,7 @@ do
 	echo "all:	\$(TARGET)" >> Makefile
 	echo "" >> Makefile
 	echo "\$(TARGET): \$(OBJECTS)" >> Makefile
-	echo "	\$(GCC) -o \$(TARGET) \$(OBJECTS) \$(LFLAGS) \$(LIBS)" >> Makefile
+	echo "	\$(GCC) -o \$(TARGET) \$(OBJECTS) \$(CPPFLAGS) \$(LFLAGS) \$(LIBS)" >> Makefile
 	echo "" >> Makefile
 	echo "clean:" >> Makefile
 	echo "	rm -f \$(OBJECTS) \$(TARGET) *~" >> Makefile

@@ -1,64 +1,17 @@
 #include "mygame.h"
 
-
-ResourceManager glMyResources("demo");
-
-
 MyGame::MyGame()
+	: DemoBase()
 {
 }
-
 
 MyGame::~MyGame()
 {
 }
 
-
-void MyGame::Setup(int argc, char **argv)
-{
-#ifdef _WII_
-	UNUSED(argc);
-	UNUSED(argv);
-#endif
-#ifdef _SDL_
-	u32 mode = static_cast<u32>(Screen::SCREEN_WII);
-
-	for (int i = 0; i < argc; i++)
-	{
-		if (!STRCASECMP(argv[i], "-emulate"))
-		{
-			if (!STRCASECMP(argv[i+1], "iphone") || !STRCASECMP(argv[i+1], "iph"))
-			{
-				mode = static_cast<u32>(Screen::SCREEN_IPHONE);
-			}
-		}
-
-
-		if (!STRCASECMP(argv[i], "-workdir"))
-		{
-			pFileSystem->SetWorkDirectory(argv[i+1]);
-		}
-	}
-#endif
-
-	pScreen->Setup(VIDEO_MODE);
-	pSystem->SetFrameRate(ISystem::RATE_60FPS);
-	pSystem->SetApplicationTitle("My awesome game");
-	pSystem->SetApplicationDescription("My awesome game save file");
-}
-
-
 BOOL MyGame::Initialize()
 {
-	pRenderer = new Renderer2D();
-
-	Seed::SetRenderer(this->pRenderer);
-	pScreen->SetRenderer(this->pRenderer);
-
-	spt.Load("sprite/basic1/seed_logo.sprite", &glMyResources);
-	spt.SetPriority(0);
-	spt.SetBlending(IRenderable::MODULATE);
-	pRenderer->Add(&spt);
+	DemoBase::Initialize();
 
 	//setup the keyframes
 	kf1.bTween		= TRUE;
@@ -87,7 +40,7 @@ BOOL MyGame::Initialize()
 	timeline.AddKeyframe(120, &kf3);
 	timeline.AddKeyframe(180, &kf2);
 	timeline.AddKeyframe(240, &kf1);
-	timeline.SetObject(&spt);
+	timeline.SetObject(&sptLogo);
 
 	movie.AddTimeline(&timeline);
 	movie.SetLocalPosition(0.0f, 0.5f); //changes the local position for all keyframes
@@ -95,28 +48,3 @@ BOOL MyGame::Initialize()
 
 	return TRUE;
 }
-
-
-BOOL MyGame::Update()
-{
-	return TRUE;
-}
-
-
-BOOL MyGame::Shutdown()
-{
-	glMyResources.Reset();
-	if (pRenderer)
-		delete pRenderer;
-	pRenderer = NULL;
-
-	return TRUE;
-}
-
-
-BOOL MyGame::Reset()
-{
-	return TRUE;
-}
-
-

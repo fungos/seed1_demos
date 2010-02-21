@@ -71,7 +71,7 @@ BOOL MyGame::Initialize()
 	sptLogo.SetVisible(TRUE);
 	sptLogo.SetPriority(0);
 	pRenderer->Add(&sptLogo);
-
+/*
 	// Collision by rect area
 	btnRect.Initialize(BTN_ID3);
 	btnRect.SetPosition(0.28f, 0.4f);
@@ -88,7 +88,7 @@ BOOL MyGame::Initialize()
 	btnPixel.AddListener(this);
 	pRenderer->Add(&btnPixel);
 	pGuiManager->Add(&btnPixel);
-
+*/
 	// Collision by mask
 	btnMask.Load("gui/basic2/btn_mask.button", &glMyResources);
 	btnMask.AddListener(this);
@@ -127,7 +127,7 @@ void MyGame::OnWidgetPress(const EventWidget *ev)
 }
 
 
-BOOL MyGame::Update()
+BOOL MyGame::Update(f32 dt)
 {
 	return TRUE;
 }

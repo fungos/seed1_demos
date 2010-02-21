@@ -5,76 +5,28 @@
 #define HEAD_X			-0.014f
 #define HEAD_Y			-0.27f
 
-
-ResourceManager glMyResources("demo");
-
-
 MyGame::MyGame()
+	: DemoBase()
 {
 }
-
 
 MyGame::~MyGame()
 {
 }
 
-
-void MyGame::Setup(int argc, char **argv)
-{
-#ifdef _WII_
-	UNUSED(argc);
-	UNUSED(argv);
-#endif
-#ifdef _SDL_
-	u32 mode = static_cast<u32>(Screen::SCREEN_WII);
-
-	for (int i = 0; i < argc; i++)
-	{
-		if (!STRCASECMP(argv[i], "-emulate"))
-		{
-			if (!STRCASECMP(argv[i+1], "iphone") || !STRCASECMP(argv[i+1], "iph"))
-			{
-				mode = static_cast<u32>(Screen::SCREEN_IPHONE);
-			}
-		}
-
-
-		if (!STRCASECMP(argv[i], "-workdir"))
-		{
-			pFileSystem->SetWorkDirectory(argv[i+1]);
-		}
-	}
-#endif
-
-	pScreen->Setup(VIDEO_MODE);
-	pSystem->SetFrameRate(ISystem::RATE_30FPS);
-	pSystem->SetApplicationTitle("My awesome game");
-	pSystem->SetApplicationDescription("My awesome game save file");
-}
-
-
 BOOL MyGame::Initialize()
 {
-	pRenderer = new Renderer2D();
+	DemoBase::Initialize();
 
-	Seed::SetRenderer(this->pRenderer);
-	pScreen->SetRenderer(this->pRenderer);
-
-	sptLogo.Load("sprite/basic1/seed_logo.sprite", &glMyResources);
-	sptLogo.SetPosition(0.0f, 0.0f);
-	sptLogo.SetVisible(TRUE);
-	sptLogo.SetPriority(0);
-	pRenderer->Add(&sptLogo);
-
-	sptBody.Load("sprite/movie5/witchdoctor_body.sprite", &glMyResources);
+	sptBody.Load("sprite/movie5/witchdoctor_body.sprite", &glDemoResources);
 	sptBody.SetPriority(1);
 	pRenderer->Add(&sptBody);
 
-	sptUpperBody.Load("sprite/movie5/witchdoctor_upper_body.sprite", &glMyResources);
+	sptUpperBody.Load("sprite/movie5/witchdoctor_upper_body.sprite", &glDemoResources);
 	sptUpperBody.SetPriority(2);
 	pRenderer->Add(&sptUpperBody);
 
-	sptHead.Load("sprite/movie5/witchdoctor_head.sprite", &glMyResources);
+	sptHead.Load("sprite/movie5/witchdoctor_head.sprite", &glDemoResources);
 	sptHead.SetPriority(3);
 	pRenderer->Add(&sptHead);
 
@@ -365,30 +317,6 @@ BOOL MyGame::Initialize()
 
 	return TRUE;
 }
-
-
-BOOL MyGame::Update()
-{
-	return TRUE;
-}
-
-
-BOOL MyGame::Shutdown()
-{
-	glMyResources.Reset();
-	if (pRenderer)
-		delete pRenderer;
-	pRenderer = NULL;
-
-	return TRUE;
-}
-
-
-BOOL MyGame::Reset()
-{
-	return TRUE;
-}
-
 
 void MyGame::OnTimelineFrame(const EventMovie *ev)
 {

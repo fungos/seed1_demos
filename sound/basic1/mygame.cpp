@@ -90,7 +90,7 @@ BOOL MyGame::Initialize()
 }
 
 static int a = 0;
-BOOL MyGame::Update()
+BOOL MyGame::Update(f32 dt)
 {
 	a++;
 	
