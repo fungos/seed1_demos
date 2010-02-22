@@ -1,0 +1,8 @@
+A collection of demos using Seed Framework
+
+This is the base for learning how to use Seed Framework and are valid as tests while 
+we does not have unity tests. We will add more and more demos here and improve Seed
+documentation based on these demos. The demos must work on every supported platform
+and must avoid any type of conditional compilation.
+
+Danny
