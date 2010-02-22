@@ -1,5 +1,4 @@
 #include "mygame.h"
-#include "assets.h"
 
 #define MY_GAME_ID				2
 #define MY_GAME_NAME_LEN		20
@@ -23,10 +22,6 @@ struct MySharedStruct
 	MyRankingStruct entries[MY_GAME_RANKING_SIZE];
 };
 
-
-ResourceManager glMyResources("demo");
-
-
 MyGame::MyGame()
 {
 }
@@ -37,37 +32,7 @@ MyGame::~MyGame()
 
 void MyGame::Setup(int argc, char **argv)
 {
-#ifdef _WII_
-	UNUSED(argc);
-	UNUSED(argv);
-#endif
-
-#ifdef _SDL_
-	u32 mode = static_cast<u32>(Screen::SCREEN_WII);
-
-	for (int i = 0; i < argc; i++)
-	{
-		if (!STRCASECMP(argv[i], "-emulate"))
-		{
-			if (!STRCASECMP(argv[i+1], "iphone") || !STRCASECMP(argv[i+1], "iph"))
-			{
-				mode = static_cast<u32>(Screen::SCREEN_IPHONE);
-			}
-		}
-
-
-		if (!STRCASECMP(argv[i], "-workdir"))
-		{
-			pFileSystem->SetWorkDirectory(argv[i+1]);
-		}
-	}
-#endif
-
-	pScreen->Setup(VIDEO_MODE);
-	pSystem->SetFrameRate(ISystem::RATE_60FPS);
-	pSystem->SetApplicationTitle("My awesome game");
-	pSystem->SetApplicationDescription("My awesome game save file");
-
+	DemoBase::Setup(argc, argv);
 
 	// FIXME: This must be done magically by the SDK, user don't care and will be pissed off to do this kind of stuff.
 	{
@@ -84,19 +49,10 @@ void MyGame::Setup(int argc, char **argv)
 
 BOOL MyGame::Initialize()
 {
-	pRenderer = new Renderer2D();
-
+	DemoBase::Initialize();
 	pSystem->SetLanguage(Seed::en_US);
-	Seed::SetRenderer(this->pRenderer);
-	pScreen->SetRenderer(this->pRenderer);
 
-	sptLogo.Load("sprite/basic1/seed_logo.sprite", &glMyResources);
-	sptLogo.SetPosition(0.0f, 0.0f);
-	sptLogo.SetVisible(TRUE);
-	sptLogo.SetPriority(0);
-	pRenderer->Add(&sptLogo);
-
-	fntMain.Load(FNT_FONT25, &glMyResources);
+	fntMain.Load(FNT_FONT25, &glDemoResources);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetPriority(1);
 	lblMessage.SetPosition(0.0f, 0.55f);
@@ -149,26 +105,6 @@ BOOL MyGame::Initialize()
 		Log("Different");
 	}
 
-	return TRUE;
-}
-
-BOOL MyGame::Update(f32 dt)
-{
-	return TRUE;
-}
-
-BOOL MyGame::Shutdown()
-{
-	glMyResources.Reset();
-	if (pRenderer)
-		delete pRenderer;
-	pRenderer = NULL;
-
-	return TRUE;
-}
-
-BOOL MyGame::Reset()
-{
 	return TRUE;
 }
 
@@ -236,4 +172,3 @@ BOOL MyGame::SaveSystemFlow()
 
 	return FALSE;
 }
-

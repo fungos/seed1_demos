@@ -13,7 +13,7 @@ using namespace Seed;
 
 extern ResourceManager glDemoResources;
 
-class DemoBase : public IGameApp, public IEventSystemListener
+class DemoBase : public IGameApp, public IEventSystemListener, public IEventInputKeyboardListener
 {
 	public:
 		DemoBase();
@@ -26,7 +26,11 @@ class DemoBase : public IGameApp, public IEventSystemListener
 		virtual BOOL Shutdown();
 		virtual BOOL HasError() const;
 
+		// IEventSystemListener
 		virtual void OnSystemShutdown(const EventSystem *ev);
+
+		// IEventInputKeyboardListener
+		virtual void OnInputKeyboardRelease(const EventInputKeyboard *ev);
 		
 	private:
 		SEED_DISABLE_COPY(DemoBase);
@@ -35,6 +39,5 @@ class DemoBase : public IGameApp, public IEventSystemListener
 		Renderer2D 	*pRenderer;
 		Sprite		sptLogo;
 };
-
 
 #endif // __DEMOBASE_H__

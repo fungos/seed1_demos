@@ -11,7 +11,7 @@ do
 	NAME=`echo $PROJECT | cut -c3- | sed 's/\//\./g'`
 	cd $PROJECT/project
 
-	echo "Building $NAME"
+	echo -en "Building \033[1;32m$NAME\033[0m "
 
 	echo "PROJECT=$NAME" > Makefile
 	echo "include Objects.in" >> Makefile 
@@ -32,7 +32,14 @@ do
 	echo "clean:" >> Makefile
 	echo "	rm -f \$(OBJECTS) \$(TARGET) *~" >> Makefile
 
-	make clean ; make
+	make clean &> /dev/null
+	 make &> /dev/null
+	
+	if [ "$?" != "0" ]; then
+		echo -e "\033[1;31mFailed!\033[0m"
+	else
+		echo -e "\033[1;33mOk!\033[0m"
+	fi
 
 	cd $ORIG
 done;

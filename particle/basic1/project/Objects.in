@@ -1,2 +1,3 @@
 OBJECTS = ../main.o \
 	../mygame.o \
+	../../../common/demobase.o

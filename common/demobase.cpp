@@ -7,10 +7,12 @@ DemoBase::DemoBase()
 	, sptLogo()
 {
 	pSystem->AddListener(this);
+	pInput->AddKeyboardListener(this);
 }
 
 DemoBase::~DemoBase()
 {
+	pInput->RemoveKeyboardListener(this);
 	pSystem->RemoveListener(this);
 }
 
@@ -69,3 +71,10 @@ void DemoBase::OnSystemShutdown(const EventSystem *ev)
 	pSystem->Shutdown();
 }
 
+void DemoBase::OnInputKeyboardRelease(const EventInputKeyboard *ev)
+{
+	Key k = ev->GetKey();
+
+	if (k == Seed::KeyEscape)
+		pSystem->Shutdown();
+}
