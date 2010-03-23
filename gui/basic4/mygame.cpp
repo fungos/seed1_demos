@@ -34,7 +34,7 @@ BOOL MyGame::Initialize()
 	strDisabled.Initialize(DIC_DISABLED);
 	pSystem->SetLanguage(Seed::en_US);
 
-	fntMain.Load(FNT_FONT25, &glDemoResources);
+	fntMain.Load(FNT_FONT1, &glDemoResources);
 
 	wcAreaA.SetWidth(0.5f);
 	wcAreaA.SetHeight(1.0f);

@@ -1,4 +1,3 @@
-<!--
 <sexport>
 	<wii>
 		<output path="/media/d/SDK/seeddemos/data/wii/workdir/data" />
@@ -7,20 +6,19 @@
 		<sound input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
 	</wii>
 	<iph>
-		<output path="/media/d/SDK/seeddemos/data/iphone/workdir/data" />
-		<image input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" res_height="600" res_width="800" />
-		<music input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
-		<sound input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
+		<output path="/techfront/SDK/seeddemos/data/iphone/workdir/data" />
+		<image input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" res_height="600" res_width="800" />
+		<music input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" />
+		<sound input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" />
 	</iph>
 	<sdl>
-		<output path="/media/d/SDK/seeddemos/data/sdl/workdir/data" />
-		<image input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" res_height="600" res_width="800" />
-		<music input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
-		<sound input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
+		<output path="/techfront/SDK/seeddemos/data/sdl/workdir/data" />
+		<image input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" res_height="600" res_width="800" />
+		<music input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" />
+		<sound input="/techfront/SDK/seeddemos/exporter/data/input" header-type="int" />
 	</sdl>
 </sexport>
--->
-
+<!--
 <sexport>
 	<wii>
 		<output path="C:\Techfront\SDK\demos\data\wii\workdir\data" />
@@ -41,3 +39,4 @@
 		<sound input="C:\Techfront\SDK\demos\exporter\data\input" header-type="int" />
 	</sdl>
 </sexport>
+-->

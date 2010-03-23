@@ -52,7 +52,7 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 	pSystem->SetLanguage(Seed::en_US);
 
-	fntMain.Load(FNT_FONT25, &glDemoResources);
+	fntMain.Load(FNT_FONT1, &glDemoResources);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetPriority(1);
 	lblMessage.SetPosition(0.0f, 0.55f);
@@ -75,7 +75,7 @@ BOOL MyGame::Initialize()
 		strncpy(shared.entries[i].name, "Danny", MY_GAME_NAME_LEN);
 		shared.entries[i].time = shared.entries[i].score = 100 - (i * 10);
 	}
-	lblMessage.SetText((WideString)L"Save game created!"); // Move to dictionary!
+	lblMessage.SetText(DIC_SAVECREATED); // Move to dictionary!
 
 	strncpy(slot.name, "Patuti", MY_GAME_NAME_LEN);
 	slot.level = 10;

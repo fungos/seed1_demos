@@ -19,7 +19,7 @@ MyGame::~MyGame()
 BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
-/*
+
 	// Collision by rect area
 	btnRect.Initialize(BTN_ID3);
 	btnRect.SetPosition(0.28f, 0.4f);
@@ -36,7 +36,7 @@ BOOL MyGame::Initialize()
 	btnPixel.AddListener(this);
 	pRenderer->Add(&btnPixel);
 	pGuiManager->Add(&btnPixel);
-*/
+
 	// Collision by mask
 	btnMask.Load("gui/basic2/btn_mask.button", &glDemoResources);
 	btnMask.AddListener(this);

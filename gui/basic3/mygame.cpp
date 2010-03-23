@@ -20,9 +20,9 @@ BOOL MyGame::Initialize()
 	pSystem->SetLanguage(Seed::en_US);
 
 	strText.Initialize(DIC_HELLOWORLD);
-	strText.Set((WideString)L"%ls", (WideString)L"Seed");
+	strText.Set(DIC_VAR_STR, "Seed");
 
-	fntMain.Load(FNT_FONT25, &glDemoResources);
+	fntMain.Load(FNT_FONT1, &glDemoResources);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetText(strText);
 	lblMessage.SetPriority(1);
@@ -60,8 +60,8 @@ void MyGame::OnSystemLanguageChanged(const EventSystem *ev)
 {
 	// When language change event happens, you must rebuil your strings.
 	strText.Initialize(DIC_HELLOWORLD);
-	strText.Set((WideString)L"%ls", (WideString)L"Seed");
+	strText.Set(DIC_VAR_STR, "Seed");
 
 	// On language change, we must reload our font so any new characters are loaded.
-	fntMain.Load(FNT_FONT25, &glDemoResources); 
+	fntMain.Load(FNT_FONT1, &glDemoResources); 
 }

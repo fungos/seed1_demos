@@ -14,14 +14,6 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	for (u32 i = 0; i < AMOUNT; i++)
-	{
-		spt[i].Load("sprite/movie1/arrow.sprite", &glDemoResources);
-		spt[i].SetPriority(i);
-		pRenderer->Add(&spt[i]);
-		spt[i].SetPosition(pRand->Get(0.0f, 1.0f), pRand->Get(0.0f, 1.0f));
-	}
-
 	sptArrow.Load("sprite/movie1/arrow.sprite", &glDemoResources);
 	sptArrow.SetPriority(1);
 	pRenderer->Add(&sptArrow);
@@ -96,11 +88,6 @@ BOOL MyGame::Initialize()
 
 BOOL MyGame::Update(f32 dt)
 {
-	for (u32 i = 0; i < AMOUNT; i++)
-	{
-		spt[i].SetRotation(fAngle);
-	}
-
 	fAngle++;
 	if (fAngle >= 360)
 		fAngle = 0;

@@ -15,7 +15,7 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 	pSystem->SetLanguage(Seed::en_US);
 
-	fntMain.Load(FNT_FONT25, &glDemoResources);
+	fntMain.Load(FNT_FONT1, &glDemoResources);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetPriority(1);
 	lblMessage.SetPosition(0.0f, 0.55f);
@@ -68,8 +68,8 @@ void MyGame::OnInputKeyboardPress(const EventInputKeyboard *ev)
 		glDemoResources.Reload(Seed::ObjectImage);
 	}
 
-	strText.Initialize((WideString)L"Code: [%d] Ascii: [%c]");
-	strText.Set((WideString)L"%d", k.GetValue()).Set((WideString)L"%c", (char)k.GetValue());
+	strText.Initialize(DIC_INPUTTEST);
+	strText.Set(DIC_VAR_CODE, k.GetValue()).Set(DIC_VAR_CHAR, (char)k.GetValue());
 	if (k.IsCharacter())
 		lblMessage.SetText(strText);
 }

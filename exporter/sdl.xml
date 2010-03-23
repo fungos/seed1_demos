@@ -1,14 +1,24 @@
-﻿<root>
+<root>
 	<strings>
 		<dictionary language='en_US'>
-			<string name='helloworld' text='Hello World %ls!' />
+			<string name='helloworld' text='Hello World {str}!' />
 			<string name='enabled' text='Enabled' />
 			<string name='disabled' text='Disabled' />
-		</dictionary>
+            <string name='savecreated' text='Save game created!' />
+            <string name='inputtest' text='Code: [{code}] Char: [{char}]' />
+            <string name='var_code' text='{code}' />
+            <string name='var_char' text='{char}' />
+            <string name='var_str' text='{str}' />
+        </dictionary>
 		<dictionary language='pt_BR'>
-			<string name='helloworld' text='%ls Olá, mundo!' />
+			<string name='helloworld' text='{str} Ola, mundo!' />
 			<string name='enabled' text='Habilitado' />
 			<string name='disabled' text='Desabilitado' />
+            <string name='savecreated' text='Savegame criado!' />
+            <string name='inputtest' text='Codigo: [{code}] Letra: [{char}]' />
+            <string name='var_code' text='{code}' />
+            <string name='var_char' text='{char}' />
+            <string name='var_str' text='{str}' />
 		</dictionary>
 	</strings>
 	<resources>
@@ -28,8 +38,8 @@
 		<resource type='image' filename='sprite/advanced1/glass' name='glass' />
 		<resource type='image' filename='sprite/advanced1/glass_mask' name='glass_mask' />
 		
-		<resource type='image' filename='gui/basic3/font25' name='font25' />
-		<resource type='image' filename='gui/basic3/font25_ext' name='font25_ext' language='pt_BR' />
+		<resource type='image' filename='gui/basic3/font1' name='font1' />
+
 		
 		<resource type='image' filename='particle/basic1/particle_00' name='particle_00' />
 		<resource type='image' filename='particle/basic1/particle_01' name='particle_01' />
@@ -187,6 +197,6 @@
 		
 		<object type='music' name='sound/basic1/theme' resource='theme' volume='20' group='demo' />
 		
-		<object type='font' name='gui/basic3/font25' spacing='0' tracking='0.01' space='0.03' resource='font25' group='common' />
+		<object type='font' name='gui/basic3/font1' spacing='0' tracking='0.0' space='0.009' resource='font1' group='common' glyph_width='17' glyph_height='22' />
 	</objects>
 </root>
