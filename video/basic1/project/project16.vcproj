@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;"
+				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;C:\Techfront\SDK\seeddemos\video\basic1"
 				PreprocessorDefinitions="WIN32;_CONSOLE;_SDL_;YMEM_DEBUG;DEBUG;"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
