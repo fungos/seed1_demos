@@ -30,8 +30,8 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	strEnabled.Initialize(DIC_ENABLED);
-	strDisabled.Initialize(DIC_DISABLED);
+	strEnabled.Set(DIC_ENABLED);
+	strDisabled.Set(DIC_DISABLED);
 	pSystem->SetLanguage(Seed::en_US);
 
 	fntMain.Load(FNT_FONT1, &glDemoResources);

@@ -68,7 +68,7 @@ void MyGame::OnInputKeyboardPress(const EventInputKeyboard *ev)
 		glDemoResources.Reload(Seed::ObjectImage);
 	}
 
-	strText.Initialize(DIC_INPUTTEST);
+	strText.Set(DIC_INPUTTEST);
 	strText.Set(DIC_VAR_CODE, k.GetValue()).Set(DIC_VAR_CHAR, (char)k.GetValue());
 	if (k.IsCharacter())
 		lblMessage.SetText(strText);

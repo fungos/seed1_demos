@@ -18,7 +18,7 @@ DemoBase::~DemoBase()
 
 void DemoBase::Setup(int argc, char **argv)
 {
-	pScreen->Setup(Screen::SCREEN_WII);
+	pScreen->Setup(Screen::SCREEN_800X600X32W_OPENGL); //WII);//1024X768X32FS_OPENGL);
 	pSystem->SetFrameRate(ISystem::RATE_60FPS);
 	pSystem->SetApplicationTitle("My awesome game");
 	pSystem->SetApplicationDescription("My awesome game description");

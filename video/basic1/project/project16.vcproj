@@ -184,7 +184,11 @@
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
 			<File
-				RelativePath="..\main.cpp"
+				RelativePath="..\..\..\common\demobase.cpp"
+				>
+			</File>
+			<File
+				RelativePath="..\..\..\common\main.cpp"
 				>
 			</File>
 			<File

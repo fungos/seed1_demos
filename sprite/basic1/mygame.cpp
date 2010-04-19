@@ -2,10 +2,10 @@
 
 MyGame::MyGame()
 	: DemoBase()
-	/*, fRot(0.0f)
+	, fRot(0.0f)
 	, iCol(0)
 	, iCount(0)
-	, bDir(TRUE)*/
+	, bDir(TRUE)
 {
 }
 
@@ -14,10 +14,10 @@ MyGame::~MyGame()
 }
 
 BOOL MyGame::Update(f32 dt)
-{/*
+{
 	sptLogo.SetColor(static_cast<u8>(iCol), 0, 255, 128);
 	//sptHelloWorld.SetScale(0.5f);
-	sptLogo.SetBlending(IRenderable::MODULATE);
+	sptLogo.SetBlending(Seed::BlendModulate);
 	sptLogo.SetRotation(fRot);
 
 	fRot += 0.5f;
@@ -41,6 +41,6 @@ BOOL MyGame::Update(f32 dt)
 		iCount = 0;
 	}
 	iCount++;
-*/
+
 	return TRUE;
 }

@@ -19,7 +19,7 @@ BOOL MyGame::Initialize()
 
 	pSystem->SetLanguage(Seed::en_US);
 
-	strText.Initialize(DIC_HELLOWORLD);
+	strText.Set(DIC_HELLOWORLD);
 	strText.Set(DIC_VAR_STR, "Seed");
 
 	fntMain.Load(FNT_FONT1, &glDemoResources);
@@ -32,7 +32,7 @@ BOOL MyGame::Initialize()
 	u32 len = 0;
 	for (u32 id = 0; id < pDictionary->GetSize(); id++)
 	{
-		WideString str = pDictionary->GetString(id, &len);
+		const WideString str = pDictionary->GetString(id, &len);
 		wprintf(L"%d String: %s Size: %d\n", id, str, len);
 	}
 
@@ -59,7 +59,7 @@ BOOL MyGame::Update(f32 dt)
 void MyGame::OnSystemLanguageChanged(const EventSystem *ev)
 {
 	// When language change event happens, you must rebuil your strings.
-	strText.Initialize(DIC_HELLOWORLD);
+	strText.Set(DIC_HELLOWORLD);
 	strText.Set(DIC_VAR_STR, "Seed");
 
 	// On language change, we must reload our font so any new characters are loaded.

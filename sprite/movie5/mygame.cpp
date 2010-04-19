@@ -18,6 +18,30 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
+	{
+		char buf[1024];
+		int i = 1;
+		for (; i < 100; i++)
+		{
+			_snprintf(buf, 1024, "sprite/advanced1/layer%d.tga", i);
+			{
+				Image img;
+				if (!img.Load(buf))
+					break;
+			}
+		}
+
+		Log("found %d", i - 1);
+	}
+
+	img.Load("sprite/advanced1/layer1.tga");
+	teste.SetTexture(&img);
+	teste.SetPriority(100);
+	teste.SetVisible(TRUE);
+	teste.SetPosition(0.5f, 0.5f);
+	//teste.SetRotation(90);
+	pRenderer->Add(&teste);
+/*
 	sptBody.Load("sprite/movie5/witchdoctor_body.sprite", &glDemoResources);
 	sptBody.SetPriority(1);
 	pRenderer->Add(&sptBody);
@@ -314,7 +338,7 @@ BOOL MyGame::Initialize()
 	movie.AddTimeline(&tmHead);
 	movie.SetPosition(0.2f, 0.5f);
 	pRenderer->Add(&movie);
-
+*/
 	return TRUE;
 }
 

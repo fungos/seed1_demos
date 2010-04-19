@@ -42,7 +42,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="0"
 				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;C:\Techfront\SDK\seeddemos\sprite\basic1"
-				PreprocessorDefinitions="WIN32;_CONSOLE;_SDL_;YMEM_DEBUG;DEBUG;"
+				PreprocessorDefinitions="WIN32;_SDL_;YMEM_DEBUG;DEBUG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="2"
@@ -67,7 +67,7 @@
 				AdditionalLibraryDirectories="&quot;$(SEEDSDK)\Seed\bin\debug\vs8&quot;;&quot;$(SEEDSDK)\dependency\vc8\lib&quot;"
 				IgnoreDefaultLibraryNames="LIBCMT"
 				GenerateDebugInformation="true"
-				SubSystem="1"
+				SubSystem="2"
 				EntryPointSymbol="mainCRTStartup"
 				RandomizedBaseAddress="1"
 				DataExecutionPrevention="0"
@@ -218,10 +218,6 @@
 				>
 			</File>
 		</Filter>
-		<File
-			RelativePath=".\sprite-basic1.rc"
-			>
-		</File>
 	</Files>
 	<Globals>
 	</Globals>

@@ -22,10 +22,10 @@ class MyGame : public DemoBase
 		Sprite spt;
 		Sprite x[100];
 		//Sprite spt[8];
-		//f32 fRot;
-		//u32 iCol;
-		//u32 iCount;
-		//BOOL bDir;
+		f32 fRot;
+		u32 iCol;
+		u32 iCount;
+		BOOL bDir;
 };
 
 #endif // __MYGAME_H__
