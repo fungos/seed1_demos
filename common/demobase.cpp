@@ -18,7 +18,7 @@ DemoBase::~DemoBase()
 
 void DemoBase::Setup(int argc, char **argv)
 {
-	pScreen->Setup(Screen::SCREEN_800X600X32W_OPENGL); //WII);//1024X768X32FS_OPENGL);
+	pScreen->Setup(Screen::SCREEN_800X600X32W_OPENGL);
 	pSystem->SetFrameRate(ISystem::RATE_60FPS);
 	pSystem->SetApplicationTitle("My awesome game");
 	pSystem->SetApplicationDescription("My awesome game description");
@@ -31,7 +31,7 @@ BOOL DemoBase::Initialize()
 	Seed::SetRenderer(pRenderer);
 	pScreen->SetRenderer(pRenderer);
 
-	sptLogo.Load("sprite/basic1/seed_logo.sprite", &glDemoResources);
+	sptLogo.Load(SPT_SEED_LOGO, &glDemoResources);
 	sptLogo.SetPosition(0.0f, 0.0f);
 	sptLogo.SetVisible(TRUE);
 	pRenderer->Add(&sptLogo);

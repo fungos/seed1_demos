@@ -14,7 +14,7 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	sptArrow.Load("sprite/movie1/arrow.sprite", &glDemoResources);
+	sptArrow.Load(SPT_ARROW, &glDemoResources);
 	sptArrow.SetPriority(1);
 	pRenderer->Add(&sptArrow);
 

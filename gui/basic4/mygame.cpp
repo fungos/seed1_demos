@@ -48,7 +48,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by rect area
 	btnBtnA1.Initialize(BTN_ID_A1);
-	btnBtnA1.SetSprite("gui/basic1/btn_sprite.sprite", &glDemoResources);
+	btnBtnA1.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
 	btnBtnA1.SetPriority(1);
 	btnBtnA1.SetPosition(0.2f, 0.2f);
 	btnBtnA1.SetVisible(TRUE);
@@ -58,7 +58,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by pixel alpha
 	btnBtnA2.Initialize(BTN_ID_A2, Seed::CollisionByPixel);
-	btnBtnA2.SetSprite("gui/basic1/btn_sprite.sprite", &glDemoResources);
+	btnBtnA2.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
 	btnBtnA2.SetPriority(1);
 	btnBtnA2.SetPosition(0.2f, 0.6f);
 	btnBtnA2.SetVisible(TRUE);
@@ -79,7 +79,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by rect area
 	btnBtnB1.Initialize(BTN_ID_B1);
-	btnBtnB1.SetSprite("gui/basic1/btn_sprite.sprite", &glDemoResources);
+	btnBtnB1.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
 	btnBtnB1.SetPriority(1);
 	btnBtnB1.SetPosition(0.2f, 0.2f);
 	btnBtnB1.SetVisible(TRUE);
@@ -89,7 +89,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by pixel alpha
 	btnBtnB2.Initialize(BTN_ID_B2, Seed::CollisionByPixel);
-	btnBtnB2.SetSprite("gui/basic1/btn_sprite.sprite", &glDemoResources);
+	btnBtnB2.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
 	btnBtnB2.SetPriority(1);
 	btnBtnB2.SetPosition(0.2f, 0.6f);
 	btnBtnB2.SetVisible(TRUE);

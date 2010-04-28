@@ -14,7 +14,7 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	sptSpotlight.Load("sprite/movie3/spotlight.sprite", &glDemoResources);
+	sptSpotlight.Load(SPT_SPOTLIGHT, &glDemoResources);
 	sptSpotlight.SetPriority(1);
 	pRenderer->Add(&sptSpotlight);
 	timeline.SetObject(&sptSpotlight);

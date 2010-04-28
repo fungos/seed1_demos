@@ -17,7 +17,7 @@
 	</ToolFiles>
 	<Configurations>
 		<Configuration
-			Name="Debug|Win32"
+			Name="Debug LGPL|Win32"
 			OutputDirectory="..\bin\debug"
 			IntermediateDirectory="..\bin\debug\obj"
 			ConfigurationType="1"
@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;C:\Techfront\SDK\seeddemos\input\basic1"
+				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;$(SEEDSDK)\seeddemos\input\basic1"
 				PreprocessorDefinitions="WIN32;_CONSOLE;_SDL_;YMEM_DEBUG;DEBUG;"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -96,7 +96,7 @@
 			/>
 		</Configuration>
 		<Configuration
-			Name="Release|Win32"
+			Name="Release LGPL|Win32"
 			OutputDirectory="..\bin\release\"
 			IntermediateDirectory="..\bin\release\obj\"
 			ConfigurationType="1"
@@ -120,7 +120,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;"
+				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;$(SEEDSDK)\seeddemos\input\basic1"
 				PreprocessorDefinitions="WIN32;RELEASE;_SDL_;_CRT_SECURE_NO_WARNINGS"
 				BasicRuntimeChecks="3"
 				RuntimeLibrary="2"

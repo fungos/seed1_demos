@@ -47,7 +47,7 @@ BOOL MyGame::Update(f32 dt)
 
 	iCount++;
 */
-	cVideo.Update();//dt);
+	cVideo.Update(dt);
 
 	Log(">> %d", cVideo.GetFrameCount());
 /*

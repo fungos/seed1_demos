@@ -35,7 +35,6 @@ class MyGame : public DemoBase, public IEventMovieListener
 		Keyframe	kfUpperBody[30];
 		Keyframe	kfHead[20];
 
-		Teste		teste;
 		Image		img;
 };
 

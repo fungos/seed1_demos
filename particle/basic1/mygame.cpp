@@ -27,7 +27,7 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 
 	cEmitter.Load(table[0], &glDemoResources);
-	cEmitter.SetSprite("particle/basic1/particle.sprite");
+	cEmitter.SetSprite(SPT_PARTICLE);
 	cEmitter.SetPriority(10);
 	cEmitter.SetPosition(0.5f, 0.5f);
 	cEmitter.Play();
@@ -50,7 +50,7 @@ void MyGame::OnInputKeyboardRelease(const EventInputKeyboard *ev)
 		{
 			cEmitter.Unload();
 			cEmitter.Load(table[v], &glDemoResources);
-			cEmitter.SetSprite("particle/basic1/particle.sprite");
+			cEmitter.SetSprite(SPT_PARTICLE);
 		}
 	}
 	else
