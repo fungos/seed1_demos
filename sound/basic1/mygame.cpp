@@ -20,17 +20,17 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 
 /*
-	sfxTheme.Load("theme.adpcm", &glDemoResources);
+	sfxTheme.Load("theme.adpcm");
 	sfxTheme.SetVolume(0.1f);
 	sfxTheme.SetLoop(TRUE);
 	sfxTheme.Play();
 	pSoundSystem->Add(&sfxTheme);
 */
 
-	sfxHelloWorld.Load(SFX_HELLOWORLD, &glDemoResources);
+	sfxHelloWorld.Load(SFX_HELLOWORLD);
 	pSoundSystem->Add(&sfxHelloWorld);
 
-	sfxPickup.Load(SFX_PICKUP_ITEM, &glDemoResources);
+	sfxPickup.Load(SFX_PICKUP_ITEM);
 	pSoundSystem->Add(&sfxPickup);
 
 	pSoundSystem->SetSfxVolume(0.5f);
@@ -38,7 +38,7 @@ BOOL MyGame::Initialize()
 
 	sfxHelloWorld.Play();
 	sfxPickup.SetVolume(0.1f);
-	musTheme.Load(BGM_THEME, &glDemoResources);
+	musTheme.Load(BGM_THEME);
 	musTheme.SetVolume(0.5f);
 	musTheme.SetAutoUnload(TRUE);
 	pSoundSystem->PlayMusic(&musTheme, 500);
@@ -57,7 +57,7 @@ BOOL MyGame::Update(f32 dt)
 	if (iCount == 300)
 	{
 #if 0
-		musTheme2.Load("sound/basic1/theme.music", &glDemoResources);
+		musTheme2.Load("sound/basic1/theme.music");
 		musTheme2.SetVolume(0.5f);
 		musTheme2.SetAutoUnload(TRUE);
 		pSoundSystem->PlayMusic(&musTheme2, 500);
@@ -68,7 +68,7 @@ BOOL MyGame::Update(f32 dt)
 	}
 	else if (iCount == 600)
 	{
-		musTheme.Load(BGM_THEME, &glDemoResources);
+		musTheme.Load(BGM_THEME);
 		musTheme.SetVolume(0.5f);
 		musTheme.SetAutoUnload(TRUE);
 		pSoundSystem->PlayMusic(&musTheme, 500);

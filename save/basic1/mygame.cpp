@@ -52,7 +52,7 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 	pSystem->SetLanguage(Seed::en_US);
 
-	fntMain.Load(FNT_FONT1, &glDemoResources);
+	fntMain.Load(FNT_FONT1);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetPriority(1);
 	lblMessage.SetPosition(0.0f, 0.55f);

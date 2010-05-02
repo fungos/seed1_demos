@@ -26,7 +26,7 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	cEmitter.Load(table[0], &glDemoResources);
+	cEmitter.Load(table[0]);
 	cEmitter.SetSprite(SPT_PARTICLE);
 	cEmitter.SetPriority(10);
 	cEmitter.SetPosition(0.5f, 0.5f);
@@ -49,7 +49,7 @@ void MyGame::OnInputKeyboardRelease(const EventInputKeyboard *ev)
 		if (v >= 0 && v < 9)
 		{
 			cEmitter.Unload();
-			cEmitter.Load(table[v], &glDemoResources);
+			cEmitter.Load(table[v]);
 			cEmitter.SetSprite(SPT_PARTICLE);
 		}
 	}

@@ -23,7 +23,7 @@ BOOL MyGame::Initialize()
 	// Collision by rect area
 	btnRect.Initialize(BTN_ID3);
 	btnRect.SetPosition(0.28f, 0.4f);
-	btnRect.Load(BTN_BTN_MASK, &glDemoResources);
+	btnRect.Load(BTN_BTN_MASK);
 	btnRect.SetCollisionType(Seed::CollisionByRectangle);
 	btnRect.AddListener(this);
 	pRenderer->Add(&btnRect);
@@ -32,13 +32,13 @@ BOOL MyGame::Initialize()
 	// Collision by pixel alpha
 	btnPixel.Initialize(BTN_ID2, Seed::CollisionByPixel);
 	btnPixel.SetPosition(0.62f, 0.4f);
-	btnPixel.Load(BTN_BTN_MASK, &glDemoResources);
+	btnPixel.Load(BTN_BTN_MASK);
 	btnPixel.AddListener(this);
 	pRenderer->Add(&btnPixel);
 	pGuiManager->Add(&btnPixel);
 
 	// Collision by mask
-	btnMask.Load(BTN_BTN_MASK, &glDemoResources);
+	btnMask.Load(BTN_BTN_MASK);
 	btnMask.AddListener(this);
 	pRenderer->Add(&btnMask);
 	pGuiManager->Add(&btnMask);

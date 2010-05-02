@@ -11,8 +11,6 @@
 
 using namespace Seed;
 
-extern ResourceManager glDemoResources;
-
 class DemoBase : public IGameApp, public IEventSystemListener, public IEventInputKeyboardListener
 {
 	public:

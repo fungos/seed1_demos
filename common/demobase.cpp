@@ -1,7 +1,5 @@
 #include "demobase.h"
 
-ResourceManager glDemoResources("demo");
-
 DemoBase::DemoBase()
 	: pRenderer(NULL)
 	, sptLogo()
@@ -26,12 +24,14 @@ void DemoBase::Setup(int argc, char **argv)
 
 BOOL DemoBase::Initialize()
 {
-	pRenderer = new Renderer2D();
+	IGameApp::Initialize();
+
+	pRenderer = New(Renderer2D());
 
 	Seed::SetRenderer(pRenderer);
 	pScreen->SetRenderer(pRenderer);
 
-	sptLogo.Load(SPT_SEED_LOGO, &glDemoResources);
+	sptLogo.Load(SPT_SEED_LOGO, &cResourceManager);
 	sptLogo.SetPosition(0.0f, 0.0f);
 	sptLogo.SetVisible(TRUE);
 	pRenderer->Add(&sptLogo);
@@ -47,13 +47,8 @@ BOOL DemoBase::Update(f32 dt)
 
 BOOL DemoBase::Shutdown()
 {
-	glDemoResources.Reset();
-
-	if (pRenderer)
-		delete pRenderer;
-	pRenderer = NULL;
-
-	return TRUE;
+	Delete(pRenderer);
+	return IGameApp::Shutdown();
 }
 
 BOOL DemoBase::Reset()

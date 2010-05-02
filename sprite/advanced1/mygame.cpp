@@ -15,23 +15,23 @@ BOOL MyGame::Initialize()
 	Seed::SetRenderer(this->pRenderer);
 	pScreen->SetRenderer(this->pRenderer);
 
-	sptBg1.Load(SPT_LAYER1, &glDemoResources);
+	sptBg1.Load(SPT_LAYER1);
 	sptBg1.SetPosition(0.0f, 0.0f);
 	sptBg1.SetVisible(TRUE);
 	pRenderer->Add(&sptBg1);
 
-	sptBg2.Load(SPT_LAYER2, &glDemoResources);
+	sptBg2.Load(SPT_LAYER2);
 	sptBg2.SetPosition(0.0f, 0.0f);
 	sptBg2.SetVisible(TRUE);
 	sptBg2.SetMasked(TRUE);
 	pRenderer->Add(&sptBg2);
 
-	sptGlassMask.Load(SPT_GLASS_MASK, &glDemoResources);
+	sptGlassMask.Load(SPT_GLASS_MASK);
 	sptGlassMask.SetVisible(TRUE);
 	sptGlassMask.SetMask(TRUE);
 	pRenderer->Add(&sptGlassMask);
 
-	sptGlass.Load(SPT_GLASS, &glDemoResources);
+	sptGlass.Load(SPT_GLASS);
 	sptGlass.SetVisible(TRUE);
 	sptGlass.SetSpecial(TRUE);
 	sptGlass.SetPriority(10);

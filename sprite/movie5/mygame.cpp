@@ -18,15 +18,15 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	sptBody.Load(SPT_WITCHDOCTOR_BODY, &glDemoResources);
+	sptBody.Load(SPT_WITCHDOCTOR_BODY);
 	sptBody.SetPriority(1);
 	pRenderer->Add(&sptBody);
 
-	sptUpperBody.Load(SPT_WITCHDOCTOR_UPPER_BODY, &glDemoResources);
+	sptUpperBody.Load(SPT_WITCHDOCTOR_UPPER_BODY);
 	sptUpperBody.SetPriority(2);
 	pRenderer->Add(&sptUpperBody);
 
-	sptHead.Load(SPT_WITCHDOCTOR_HEAD, &glDemoResources);
+	sptHead.Load(SPT_WITCHDOCTOR_HEAD);
 	sptHead.SetPriority(3);
 	pRenderer->Add(&sptHead);
 

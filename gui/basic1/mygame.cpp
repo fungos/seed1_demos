@@ -20,7 +20,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by rect area
 	btnRect.Initialize(BTN_ID1);
-	btnRect.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
+	btnRect.SetSprite(SPT_BTN_SPRITE);
 	btnRect.SetPriority(1);
 	btnRect.SetPosition(0.28f, 0.4f);
 	btnRect.SetVisible(TRUE);
@@ -30,7 +30,7 @@ BOOL MyGame::Initialize()
 
 	// Collision by pixel alpha
 	btnPixel.Initialize(BTN_ID2, Seed::CollisionByPixel);
-	btnPixel.SetSprite(SPT_BTN_SPRITE, &glDemoResources);
+	btnPixel.SetSprite(SPT_BTN_SPRITE);
 	btnPixel.SetPriority(1);
 	btnPixel.SetPosition(0.62f, 0.4f);
 	btnPixel.SetVisible(TRUE);

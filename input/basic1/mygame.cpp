@@ -15,7 +15,7 @@ BOOL MyGame::Initialize()
 	DemoBase::Initialize();
 	pSystem->SetLanguage(Seed::en_US);
 
-	fntMain.Load(FNT_FONT1, &glDemoResources);
+	fntMain.Load(FNT_FONT1);
 	lblMessage.SetFont(&fntMain);
 	lblMessage.SetPriority(1);
 	lblMessage.SetPosition(0.0f, 0.55f);
@@ -52,20 +52,20 @@ void MyGame::OnInputKeyboardPress(const EventInputKeyboard *ev)
 
 	if (k == Seed::KeyF9)
 	{
-		glDemoResources.Unload(Seed::ObjectImage);
+		cResourceManager.Unload(Seed::ObjectImage);
 		if (!bToggle)
 			pScreen->SetMode(Screen::SCREEN_1024X768X32FS_OPENGL);
 		else
 			pScreen->SetMode(Screen::SCREEN_WII);
 		bToggle = !bToggle;
-		glDemoResources.Reload(Seed::ObjectImage);
+		cResourceManager.Reload(Seed::ObjectImage);
 	}
 
 	if (k == Seed::KeyF5)
 	{
-		glDemoResources.Unload(Seed::ObjectImage);
+		cResourceManager.Unload(Seed::ObjectImage);
 		pScreen->ToggleFullscreen();
-		glDemoResources.Reload(Seed::ObjectImage);
+		cResourceManager.Reload(Seed::ObjectImage);
 	}
 
 	strText.Set(DIC_INPUTTEST);

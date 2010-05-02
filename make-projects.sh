@@ -18,11 +18,11 @@ do
 	echo "TARGET = ../../../bin/\$(PROJECT)" >> Makefile
 	echo "" >> Makefile
 	echo "GCC = g++" >> Makefile
-	echo "CFLAGS = -Wall -fPIC -g \`sdl-config --cflags\` \$(CDEFS) -I$SEEDSDK/seed/include -I$SEEDSDK/seeddemos/common/sdl" >> Makefile
-	echo "CDEFS = -D _SDL_ -D _DEBUG_" >> Makefile
-	echo "LFLAGS = \`sdl-config --libs\` -L/bin -lSDL_image -lopenal -lGL -lseed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora" >> Makefile
+	echo "CFLAGS = -Wall -fPIC -g \`sdl-config --cflags\` \$(CDEFS) -I$SEEDSDK/seed/include -I$SEEDSDK/seeddemos/common/sdl -I.." >> Makefile
+	echo "CDEFS = -D_SDL_ -DDEBUG" >> Makefile
+	echo "LFLAGS = \`sdl-config --libs\` -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora" >> Makefile
 	echo "CPPFLAGS = \$(CFLAGS)" >> Makefile
-	echo "LIBS = -L$SEEDSDK/seed" >> Makefile
+	echo "LIBS = -L$SEEDSDK/seed/bin" >> Makefile
 	echo "" >> Makefile
 	echo "all:	\$(TARGET)" >> Makefile
 	echo "" >> Makefile

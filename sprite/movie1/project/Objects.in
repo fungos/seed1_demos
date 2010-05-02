@@ -1,4 +1,4 @@
 OBJECTS = \
-	../../../common/main.o \
 	../mygame.o \
+	../../../common/main.o \
 	../../../common/demobase.o

@@ -13,7 +13,7 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	sptArrow.Load(SPT_ARROW, &glDemoResources);
+	sptArrow.Load(SPT_ARROW);
 	sptArrow.SetPriority(1);
 	pRenderer->Add(&sptArrow);
 
