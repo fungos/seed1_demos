@@ -4,21 +4,21 @@
 			<string name='helloworld' text='Hello World {str}!' />
 			<string name='enabled' text='Enabled' />
 			<string name='disabled' text='Disabled' />
-            <string name='savecreated' text='Save game created!' />
-            <string name='inputtest' text='Code: [{code}] Char: [{char}]' />
-            <string name='var_code' text='{code}' />
-            <string name='var_char' text='{char}' />
-            <string name='var_str' text='{str}' />
-        </dictionary>
+			<string name='savecreated' text='Save game created!' />
+			<string name='inputtest' text='Code: [{code}] Char: [{char}]' />
+			<string name='var_code' text='{code}' />
+			<string name='var_char' text='{char}' />
+			<string name='var_str' text='{str}' />
+		</dictionary>
 		<dictionary language='pt_BR'>
 			<string name='helloworld' text='{str} Ola, mundo!' />
 			<string name='enabled' text='Habilitado' />
 			<string name='disabled' text='Desabilitado' />
-            <string name='savecreated' text='Savegame criado!' />
-            <string name='inputtest' text='Codigo: [{code}] Letra: [{char}]' />
-            <string name='var_code' text='{code}' />
-            <string name='var_char' text='{char}' />
-            <string name='var_str' text='{str}' />
+			<string name='savecreated' text='Savegame criado!' />
+			<string name='inputtest' text='Codigo: [{code}] Letra: [{char}]' />
+			<string name='var_code' text='{code}' />
+			<string name='var_char' text='{char}' />
+			<string name='var_str' text='{str}' />
 		</dictionary>
 	</strings>
 	<resources>
