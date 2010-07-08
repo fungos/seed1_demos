@@ -25,7 +25,7 @@ BOOL MyGame::Initialize()
 	btnRect.SetPosition(0.28f, 0.4f);
 	btnRect.SetVisible(TRUE);
 	btnRect.AddListener(this);
-	pRenderer->Add(&btnRect);
+	cScene.Add(&btnRect);
 	pGuiManager->Add(&btnRect);
 
 	// Collision by pixel alpha
@@ -35,7 +35,7 @@ BOOL MyGame::Initialize()
 	btnPixel.SetPosition(0.62f, 0.4f);
 	btnPixel.SetVisible(TRUE);
 	btnPixel.AddListener(this);
-	pRenderer->Add(&btnPixel);
+	cScene.Add(&btnPixel);
 	pGuiManager->Add(&btnPixel);
 
 	return TRUE;

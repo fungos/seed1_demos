@@ -16,7 +16,7 @@ BOOL MyGame::Initialize()
 
 	sptArrow.Load(SPT_ARROW);
 	sptArrow.SetPriority(1);
-	pRenderer->Add(&sptArrow);
+	cScene.Add(&sptArrow);
 
 	//setup the keyframes
 	kf1.bTween		= TRUE;
@@ -81,7 +81,7 @@ BOOL MyGame::Initialize()
 	timeline.SetObject(&sptArrow);
 
 	movie.AddTimeline(&timeline);
-	pRenderer->Add(&movie);
+	cScene.Add(&movie);
 
 	return TRUE;
 }

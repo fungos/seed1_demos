@@ -28,6 +28,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
+				Description="Copying Seed.dll to SDL workdir"
+				CommandLine="copy %SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll %SEEDSDK%\seeddemos\data\sdl\workdir"
+				Outputs="."
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"
@@ -41,7 +44,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;$(SEEDSDK)\seeddemos\sprite\basic1"
+				AdditionalIncludeDirectories="..\includes;&quot;$(SEEDSDK)\Seed\include&quot;;&quot;$(SEEDSDK)\dependency\common\include&quot;;&quot;$(SEEDSDK)\dependency\vc8\include&quot;;&quot;$(SEEDSDK)\seeddemos\sprite\basic1&quot;;C:\DXSDK\Include"
 				PreprocessorDefinitions="WIN32;_SDL_;YMEM_DEBUG;DEBUG"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -62,9 +65,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="opengl32.lib glu32.lib sdl.lib sdlmain.lib openal32.lib sdl_image.lib seed.lib vorbis_static.lib vorbisfile_static.lib ogg_static.lib"
+				AdditionalDependencies="d3d8.lib d3dx8.lib version.lib opengl32.lib glu32.lib sdl.lib sdlmain.lib openal32.lib sdl_image.lib seed.lib vorbis_static.lib vorbisfile_static.lib ogg_static.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="&quot;$(SEEDSDK)\Seed\bin\debug\vs8&quot;;&quot;$(SEEDSDK)\dependency\vc8\lib&quot;"
+				AdditionalLibraryDirectories="&quot;$(SEEDSDK)\Seed\bin\debug\dynamic\vs8&quot;;&quot;$(SEEDSDK)\dependency\vc8\lib&quot;;C:\DXSDK\Lib"
 				IgnoreDefaultLibraryNames="LIBCMT"
 				GenerateDebugInformation="true"
 				SubSystem="2"
@@ -108,6 +111,9 @@
 			/>
 			<Tool
 				Name="VCCustomBuildTool"
+				Description="Copying Seed.dll to SDL workdir"
+				CommandLine="copy %SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll %SEEDSDK%\seeddemos\data\sdl\workdir"
+				Outputs="."
 			/>
 			<Tool
 				Name="VCXMLDataGeneratorTool"

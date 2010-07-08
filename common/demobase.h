@@ -9,6 +9,9 @@
 #include "wii/assets.h"
 #endif
 
+extern ISceneNode *pScene;
+extern ISceneNode *pSceneStatic;
+
 using namespace Seed;
 
 class DemoBase : public IGameApp, public IEventSystemListener, public IEventInputKeyboardListener
@@ -17,7 +20,6 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 		DemoBase();
 		~DemoBase();
 
-		virtual void Setup(int argc, char **argv);
 		virtual BOOL Initialize();
 		virtual BOOL Update(f32 dt);
 		virtual BOOL Reset();
@@ -34,7 +36,11 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 		SEED_DISABLE_COPY(DemoBase);
 
 	protected:
-		Renderer2D 	*pRenderer;
+		SceneNode<1024> cScene;
+		SceneNode<128> cSceneStatic;
+		Array<int, 10> cArray;
+		Viewport	cViewport;
+		Renderer	cRenderer;
 		Sprite		sptLogo;
 };
 

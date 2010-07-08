@@ -39,7 +39,7 @@ void MyGame::Setup(int argc, char **argv)
 		char tmpPath[MAX_FOLDER_SIZE];
 		snprintf(tmpPath, MAX_FOLDER_SIZE, "%s%s/", pSystem->GetHomeFolder(), "/MyPublisher");
 		pFileSystem->MakeDirectory(tmpPath);
-		snprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, "%s%s/", tmpPath, pSystem->GetApplicationTitle());
+		snprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, "%s%s/", tmpPath, cConfig.GetApplicationTitle());
 		pFileSystem->MakeDirectory(pcSaveGameFolder);
 		pFileSystem->SetWriteableDirectory(pcSaveGameFolder);
 	}
@@ -59,7 +59,7 @@ BOOL MyGame::Initialize()
 	lblMessage.SetWidth(1.0f);
 	lblMessage.SetAlignment(HorizontalAlignCenter);
 	pGuiManager->Add(&lblMessage);
-	pRenderer->Add(&lblMessage);
+	cScene.Add(&lblMessage);
 
 	this->SaveSystemFlow();
 

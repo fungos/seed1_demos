@@ -31,7 +31,7 @@ BOOL MyGame::Initialize()
 	cEmitter.SetPriority(10);
 	cEmitter.SetPosition(0.5f, 0.5f);
 	cEmitter.Play();
-	pRenderer->Add(&cEmitter);
+	cScene.Add(&cEmitter);
 	pParticleManager->Add(&cEmitter);
 
 	return TRUE;

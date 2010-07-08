@@ -22,7 +22,7 @@ BOOL MyGame::Initialize()
 	lblMessage.SetWidth(1.0f);
 	lblMessage.SetAlignment(HorizontalAlignCenter);
 	pGuiManager->Add(&lblMessage);
-	pRenderer->Add(&lblMessage);
+	cScene.Add(&lblMessage);
 
 	Log("Is Motion: %s", pInput->IsMotion() ? "Yes" : "No");
 	Log("Is Pointer: %s", pInput->IsPointer() ? "Yes" : "No");
@@ -49,17 +49,6 @@ void MyGame::OnInputKeyboardPress(const EventInputKeyboard *ev)
 
 	if (k == Seed::KeyEscape)
 		pSystem->Shutdown();
-
-	if (k == Seed::KeyF9)
-	{
-		cResourceManager.Unload(Seed::ObjectImage);
-		if (!bToggle)
-			pScreen->SetMode(Screen::SCREEN_1024X768X32FS_OPENGL);
-		else
-			pScreen->SetMode(Screen::SCREEN_WII);
-		bToggle = !bToggle;
-		cResourceManager.Reload(Seed::ObjectImage);
-	}
 
 	if (k == Seed::KeyF5)
 	{

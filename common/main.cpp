@@ -1,5 +1,8 @@
 #include "mygame.h"
 
+ISceneNode *pScene;
+ISceneNode *pSceneStatic;
+
 int main(int argc, char **argv)
 {
 	MyGame app;

@@ -15,7 +15,7 @@ MyGame::~MyGame()
 
 BOOL MyGame::Update(f32 dt)
 {
-	sptLogo.SetColor(static_cast<u8>(iCol), 0, 255, 128);
+	sptLogo.SetColor(iCol, 0u, 255u, 128u);
 	sptLogo.SetBlending(Seed::BlendModulate);
 	sptLogo.SetRotation(fRot);
 

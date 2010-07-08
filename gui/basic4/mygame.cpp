@@ -44,7 +44,7 @@ BOOL MyGame::Initialize()
 	lblTitleA.SetText(strEnabled);
 	lblTitleA.SetPriority(1);
 	wcAreaA.Add(&lblTitleA);
-	pRenderer->Add(&lblTitleA);
+	cScene.Add(&lblTitleA);
 
 	// Collision by rect area
 	btnBtnA1.Initialize(BTN_ID_A1);
@@ -54,7 +54,7 @@ BOOL MyGame::Initialize()
 	btnBtnA1.SetVisible(TRUE);
 	btnBtnA1.AddListener(this);
 	wcAreaA.Add(&btnBtnA1);
-	pRenderer->Add(&btnBtnA1);
+	cScene.Add(&btnBtnA1);
 
 	// Collision by pixel alpha
 	btnBtnA2.Initialize(BTN_ID_A2, Seed::CollisionByPixel);
@@ -64,7 +64,7 @@ BOOL MyGame::Initialize()
 	btnBtnA2.SetVisible(TRUE);
 	btnBtnA2.AddListener(this);
 	wcAreaA.Add(&btnBtnA2);
-	pRenderer->Add(&btnBtnA2);
+	cScene.Add(&btnBtnA2);
 
 	wcAreaB.SetPosition(0.5f, 0.0f);
 	wcAreaB.SetWidth(0.5f);
@@ -75,7 +75,7 @@ BOOL MyGame::Initialize()
 	lblTitleB.SetText(strDisabled);
 	lblTitleB.SetPriority(1);
 	wcAreaB.Add(&lblTitleB);
-	pRenderer->Add(&lblTitleB);
+	cScene.Add(&lblTitleB);
 
 	// Collision by rect area
 	btnBtnB1.Initialize(BTN_ID_B1);
@@ -85,7 +85,7 @@ BOOL MyGame::Initialize()
 	btnBtnB1.SetVisible(TRUE);
 	btnBtnB1.AddListener(this);
 	wcAreaB.Add(&btnBtnB1);
-	pRenderer->Add(&btnBtnB1);
+	cScene.Add(&btnBtnB1);
 
 	// Collision by pixel alpha
 	btnBtnB2.Initialize(BTN_ID_B2, Seed::CollisionByPixel);
@@ -95,7 +95,7 @@ BOOL MyGame::Initialize()
 	btnBtnB2.SetVisible(TRUE);
 	btnBtnB2.AddListener(this);
 	wcAreaB.Add(&btnBtnB2);
-	pRenderer->Add(&btnBtnB2);
+	cScene.Add(&btnBtnB2);
 
 	wcAreaB.SetVisible(FALSE);
 	wcAreaB.SetDisabled(TRUE);

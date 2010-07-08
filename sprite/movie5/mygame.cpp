@@ -20,15 +20,15 @@ BOOL MyGame::Initialize()
 
 	sptBody.Load(SPT_WITCHDOCTOR_BODY);
 	sptBody.SetPriority(1);
-	pRenderer->Add(&sptBody);
+	cScene.Add(&sptBody);
 
 	sptUpperBody.Load(SPT_WITCHDOCTOR_UPPER_BODY);
 	sptUpperBody.SetPriority(2);
-	pRenderer->Add(&sptUpperBody);
+	cScene.Add(&sptUpperBody);
 
 	sptHead.Load(SPT_WITCHDOCTOR_HEAD);
 	sptHead.SetPriority(3);
-	pRenderer->Add(&sptHead);
+	cScene.Add(&sptHead);
 
 	tmBody.SetObject(&sptBody);
 	tmUpperBody.SetObject(&sptUpperBody);
@@ -313,7 +313,7 @@ BOOL MyGame::Initialize()
 	movie.AddTimeline(&tmUpperBody);
 	movie.AddTimeline(&tmHead);
 	movie.SetPosition(0.2f, 0.5f);
-	pRenderer->Add(&movie);
+	cScene.Add(&movie);
 
 	return TRUE;
 }

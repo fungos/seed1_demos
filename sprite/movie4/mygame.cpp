@@ -44,7 +44,7 @@ BOOL MyGame::Initialize()
 
 	movie.AddTimeline(&timeline);
 	movie.SetLocalPosition(0.0f, 0.5f); //changes the local position for all keyframes
-	pRenderer->Add(&movie);
+	cScene.Add(&movie);
 
 	return TRUE;
 }

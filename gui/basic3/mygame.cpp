@@ -27,7 +27,7 @@ BOOL MyGame::Initialize()
 	lblMessage.SetText(strText);
 	lblMessage.SetPriority(1);
 	pGuiManager->Add(&lblMessage);
-	pRenderer->Add(&lblMessage);
+	cScene.Add(&lblMessage);
 
 	u32 len = 0;
 	for (u32 id = 0; id < pDictionary->GetSize(); id++)

@@ -1,11 +1,15 @@
 #include "demobase.h"
 
 DemoBase::DemoBase()
-	: pRenderer(NULL)
-	, sptLogo()
 {
 	pSystem->AddListener(this);
 	pInput->AddKeyboardListener(this);
+
+	cConfig.SetRendererDeviceType(Seed::RendererDeviceDirectX8);
+	cConfig.SetVideoMode(Seed::Video_800x600);
+	cConfig.SetFrameRate(Seed::FrameRateLockAt60);
+	cConfig.SetApplicationTitle("My awesome game");
+	cConfig.SetApplicationDescription("My awesome game description");
 }
 
 DemoBase::~DemoBase()
@@ -14,27 +18,32 @@ DemoBase::~DemoBase()
 	pSystem->RemoveListener(this);
 }
 
-void DemoBase::Setup(int argc, char **argv)
-{
-	pScreen->Setup(Screen::SCREEN_800X600X32W_OPENGL);
-	pSystem->SetFrameRate(ISystem::RATE_60FPS);
-	pSystem->SetApplicationTitle("My awesome game");
-	pSystem->SetApplicationDescription("My awesome game description");
-}
-
 BOOL DemoBase::Initialize()
 {
 	IGameApp::Initialize();
 
-	pRenderer = New(Renderer2D());
+	/* ------- Rendering Initialization ------- */
+	cScene.SetPriority(0);
+	cSceneStatic.SetPriority(20000);
 
-	Seed::SetRenderer(pRenderer);
-	pScreen->SetRenderer(pRenderer);
+	cRenderer.Add(&cScene);
+	cRenderer.Add(&cSceneStatic);
+
+	cViewport.SetRenderer(&cRenderer);
+	pViewManager->Add(&cViewport);
+	pRendererManager->Add(&cRenderer);
+
+	pSceneManager->Add(&cScene);
+	pSceneManager->Add(&cSceneStatic);
+
+	pScene = &cScene;
+	pSceneStatic = &cSceneStatic;
+	/* ------- Rendering Initialization ------- */
 
 	sptLogo.Load(SPT_SEED_LOGO, &cResourceManager);
 	sptLogo.SetPosition(0.0f, 0.0f);
 	sptLogo.SetVisible(TRUE);
-	pRenderer->Add(&sptLogo);
+	cScene.Add(&sptLogo);
 	pScreen->FadeIn();
 
 	return TRUE;
@@ -47,7 +56,6 @@ BOOL DemoBase::Update(f32 dt)
 
 BOOL DemoBase::Shutdown()
 {
-	Delete(pRenderer);
 	return IGameApp::Shutdown();
 }
 

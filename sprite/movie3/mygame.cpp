@@ -16,7 +16,7 @@ BOOL MyGame::Initialize()
 
 	sptSpotlight.Load(SPT_SPOTLIGHT);
 	sptSpotlight.SetPriority(1);
-	pRenderer->Add(&sptSpotlight);
+	cScene.Add(&sptSpotlight);
 	timeline.SetObject(&sptSpotlight);
 
 	//setup the keyframes
@@ -53,7 +53,7 @@ BOOL MyGame::Initialize()
 	movie.SetPosition(0.43f, 0.30f);
 	movie.SetLocalPosition(0.0f, -0.3f);
 	movie.SetPriority(1);
-	pRenderer->Add(&movie);
+	cScene.Add(&movie);
 	
 	return TRUE;
 }
