@@ -22,6 +22,38 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		2D1872E311EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E411EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E511EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E611EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E711EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E811EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872E911EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872EA11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872EB11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872EC11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872ED11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872EE11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872EF11EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872F011EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872F111EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872F211EB5A5900A8EB9F /* Seed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1872F511EB5AF500A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873EA11EB5B3300A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873EB11EB5B3800A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873EC11EB5B3E00A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873ED11EB5B4400A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873EE11EB5B4900A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873EF11EB5B4D00A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F011EB5B5200A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F111EB5B5600A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F211EB5B5C00A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F311EB5B6200A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F411EB5B6700A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F511EB5B6B00A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F611EB5B7200A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F711EB5B7700A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D1873F811EB5B8000A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
 		2DCA05661157A623002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA05981157A847002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA05B31157A89E002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
@@ -67,7 +99,6 @@
 		2DCA0EBD11580288002B77A0 /* oggz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA0EC011580288002B77A0 /* Theora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4E1154072D00E94EE6 /* Theora.framework */; };
 		2DCA0EC111580288002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
-		2DCA1452115927A5002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA1499115928C3002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA149A115928C3002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA149D115928D5002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -78,14 +109,12 @@
 		2DCA14DB115931B9002B77A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149C115928D5002B77A0 /* OpenGL.framework */; };
 		2DCA14DC115931B9002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA14DD115931B9002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
-		2DCA14DE115931B9002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA14DF115931C3002B77A0 /* SDL.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA14E0115931C3002B77A0 /* SDL_image.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA14EB1159335A002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
 		2DCA14EC1159335A002B77A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149C115928D5002B77A0 /* OpenGL.framework */; };
 		2DCA14ED1159335A002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA14EE1159335A002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
-		2DCA14EF1159335A002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA14F011593360002B77A0 /* SDL.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA14F111593360002B77A0 /* SDL_image.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA14FA11593427002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
@@ -96,7 +125,6 @@
 		2DCA151D1159345F002B77A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149C115928D5002B77A0 /* OpenGL.framework */; };
 		2DCA151E1159345F002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA151F1159345F002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
-		2DCA15201159345F002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA15211159345F002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
 		2DCA15221159345F002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA15231159345F002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -120,7 +148,6 @@
 		2DCA155F1159350C002B77A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149C115928D5002B77A0 /* OpenGL.framework */; };
 		2DCA15601159350C002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA15611159350C002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
-		2DCA15621159350C002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA15631159350C002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
 		2DCA15641159350C002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA15651159350C002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -144,7 +171,6 @@
 		2DCA15901159356D002B77A0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149C115928D5002B77A0 /* OpenGL.framework */; };
 		2DCA15911159356D002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA15921159356D002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
-		2DCA15931159356D002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA15941159356D002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
 		2DCA15951159356D002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA15961159356D002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -171,7 +197,6 @@
 		2DCA15E411594A48002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA15E511594A48002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA15E611594A48002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA15E711594A48002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA15E811594A48002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA15E911594A48002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA15EA11594A48002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -195,7 +220,6 @@
 		2DCA160F11594A9C002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA161011594A9C002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA161111594A9C002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA161211594A9C002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA161311594A9C002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA161411594A9C002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA161511594A9C002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -219,7 +243,6 @@
 		2DCA166111594C1E002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA166211594C1E002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA166311594C1E002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA166411594C1E002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA166511594C1E002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA166611594C1E002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA166711594C1E002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -243,7 +266,6 @@
 		2DCA169111594CAF002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA169211594CAF002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA169311594CAF002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA169411594CAF002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA169511594CAF002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA169611594CAF002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA169711594CAF002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -267,7 +289,6 @@
 		2DCA16D611594E1E002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA16D711594E1E002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA16D811594E1E002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA16D911594E1E002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA16DA11594E1E002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA16DB11594E1E002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA16DC11594E1E002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -291,7 +312,6 @@
 		2DCA170911594F1E002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA170A11594F1E002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA170B11594F1E002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA170C11594F1E002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA170D11594F1E002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA170E11594F1E002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA170F11594F1E002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -315,7 +335,6 @@
 		2DCA1748115950E7002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA1749115950E7002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA174A115950E7002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA174B115950E7002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA174C115950E7002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA174D115950E7002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA174E115950E7002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -339,7 +358,6 @@
 		2DCA17751159513F002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA17761159513F002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA17771159513F002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA17781159513F002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA17791159513F002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA177A1159513F002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA177B1159513F002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -363,7 +381,6 @@
 		2DCA17A51159519A002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA17A61159519A002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA17A71159519A002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA17A81159519A002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA17A91159519A002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA17AA1159519A002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA17AB1159519A002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -387,7 +404,6 @@
 		2DCA182911595544002B77A0 /* Vorbis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA182A11595544002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA182B11595544002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
-		2DCA182C11595544002B77A0 /* libseed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1451115927A5002B77A0 /* libseed.a */; };
 		2DCA182D11595544002B77A0 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA182E11595544002B77A0 /* SDL_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA182F11595544002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -415,6 +431,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1872F511EB5AF500A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA14CE1159316E002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA14CF1159316E002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA0A6F1157AE98002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -432,6 +449,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873EA11EB5B3300A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA14DF115931C3002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA14E0115931C3002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA0D061157CE83002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -449,6 +467,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873EB11EB5B3800A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA14F011593360002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA14F111593360002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA0EA811580217002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -466,6 +485,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873EC11EB5B3E00A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA152A1159346D002B77A0 /* Ogg.framework in Copy Frameworks Files */,
 				2DCA152B1159346D002B77A0 /* Oggplay.framework in Copy Frameworks Files */,
 				2DCA152C1159346D002B77A0 /* oggz.framework in Copy Frameworks Files */,
@@ -483,6 +503,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873ED11EB5B4400A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA156C11593514002B77A0 /* Ogg.framework in Copy Frameworks Files */,
 				2DCA156D11593514002B77A0 /* Oggplay.framework in Copy Frameworks Files */,
 				2DCA156E11593514002B77A0 /* oggz.framework in Copy Frameworks Files */,
@@ -500,6 +521,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873EE11EB5B4900A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA159D1159356D002B77A0 /* Ogg.framework in Copy Frameworks Files */,
 				2DCA159E1159356D002B77A0 /* Oggplay.framework in Copy Frameworks Files */,
 				2DCA159F1159356D002B77A0 /* oggz.framework in Copy Frameworks Files */,
@@ -517,6 +539,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873EF11EB5B4D00A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA15EE11594A48002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA15EF11594A48002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA15F011594A48002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -534,6 +557,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F011EB5B5200A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA161911594A9C002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA161A11594A9C002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA161B11594A9C002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -551,6 +575,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F111EB5B5600A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA166B11594C1E002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA166C11594C1E002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA166D11594C1E002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -568,6 +593,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F211EB5B5C00A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA169B11594CAF002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA169C11594CAF002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA169D11594CAF002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -585,6 +611,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F311EB5B6200A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA16E011594E1E002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA16E111594E1E002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA16E211594E1E002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -602,6 +629,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F411EB5B6700A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA171311594F1E002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA171411594F1E002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA171511594F1E002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -619,6 +647,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F511EB5B6B00A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA1752115950E7002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA1753115950E7002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA1754115950E7002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -636,6 +665,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F611EB5B7200A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA177F1159513F002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA17801159513F002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA17811159513F002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -653,6 +683,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F711EB5B7700A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA17AF1159519A002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA17B01159519A002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA17B11159519A002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -670,6 +701,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				2D1873F811EB5B8000A8EB9F /* Seed.framework in Copy Frameworks Files */,
 				2DCA183311595544002B77A0 /* SDL.framework in Copy Frameworks Files */,
 				2DCA183411595544002B77A0 /* SDL_image.framework in Copy Frameworks Files */,
 				2DCA183511595544002B77A0 /* Theora.framework in Copy Frameworks Files */,
@@ -685,6 +717,7 @@
 
 /* Begin PBXFileReference section */
 		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2D1872E211EB5A5900A8EB9F /* Seed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Seed.framework; path = "../../seed/project/Seed OSX/build/Debug/Seed.framework"; sourceTree = SOURCE_ROOT; };
 		2DCA05961157A847002B77A0 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		2DCA05971157A847002B77A0 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		2DCA05B21157A89E002B77A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -693,7 +726,6 @@
 		2DCA0CB81157CB82002B77A0 /* sprite_movie1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sprite_movie1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DCA0CC81157CC5F002B77A0 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = ../common/main.cpp; sourceTree = SOURCE_ROOT; };
 		2DCA0EB211580217002B77A0 /* sprite_movie2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sprite_movie2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DCA1451115927A5002B77A0 /* libseed.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libseed.a; path = ../../seed.lw/Debug/libseed.a; sourceTree = SOURCE_ROOT; };
 		2DCA1497115928C3002B77A0 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = ../../dependency/macosx/10.4/debug/SDL.framework; sourceTree = SOURCE_ROOT; };
 		2DCA1498115928C3002B77A0 /* SDL_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL_image.framework; path = ../../dependency/macosx/10.4/debug/SDL_image.framework; sourceTree = SOURCE_ROOT; };
 		2DCA149B115928D5002B77A0 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = ../../../../System/Library/Frameworks/OpenAL.framework; sourceTree = SOURCE_ROOT; };
@@ -765,7 +797,6 @@
 				2DCA14DB115931B9002B77A0 /* OpenGL.framework in Frameworks */,
 				2DCA14DC115931B9002B77A0 /* SDL.framework in Frameworks */,
 				2DCA14DD115931B9002B77A0 /* SDL_image.framework in Frameworks */,
-				2DCA14DE115931B9002B77A0 /* libseed.a in Frameworks */,
 				2DCA0CF71157CE71002B77A0 /* AppKit.framework in Frameworks */,
 				2DCA0CF81157CE71002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA0CF91157CE71002B77A0 /* Ogg.framework in Frameworks */,
@@ -773,6 +804,7 @@
 				2DCA0CFB1157CE71002B77A0 /* oggz.framework in Frameworks */,
 				2DCA0CFE1157CE71002B77A0 /* Theora.framework in Frameworks */,
 				2DCA0CFF1157CE71002B77A0 /* Vorbis.framework in Frameworks */,
+				2D1872E411EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -784,7 +816,6 @@
 				2DCA14EC1159335A002B77A0 /* OpenGL.framework in Frameworks */,
 				2DCA14ED1159335A002B77A0 /* SDL.framework in Frameworks */,
 				2DCA14EE1159335A002B77A0 /* SDL_image.framework in Frameworks */,
-				2DCA14EF1159335A002B77A0 /* libseed.a in Frameworks */,
 				2DCA0EB911580288002B77A0 /* AppKit.framework in Frameworks */,
 				2DCA0EBA11580288002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA0EBB11580288002B77A0 /* Ogg.framework in Frameworks */,
@@ -792,6 +823,7 @@
 				2DCA0EBD11580288002B77A0 /* oggz.framework in Frameworks */,
 				2DCA0EC011580288002B77A0 /* Theora.framework in Frameworks */,
 				2DCA0EC111580288002B77A0 /* Vorbis.framework in Frameworks */,
+				2D1872E511EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,7 +835,6 @@
 				2DCA151D1159345F002B77A0 /* OpenGL.framework in Frameworks */,
 				2DCA151E1159345F002B77A0 /* SDL.framework in Frameworks */,
 				2DCA151F1159345F002B77A0 /* SDL_image.framework in Frameworks */,
-				2DCA15201159345F002B77A0 /* libseed.a in Frameworks */,
 				2DCA15211159345F002B77A0 /* AppKit.framework in Frameworks */,
 				2DCA15221159345F002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA15231159345F002B77A0 /* Ogg.framework in Frameworks */,
@@ -811,6 +842,7 @@
 				2DCA15251159345F002B77A0 /* oggz.framework in Frameworks */,
 				2DCA15261159345F002B77A0 /* Theora.framework in Frameworks */,
 				2DCA15271159345F002B77A0 /* Vorbis.framework in Frameworks */,
+				2D1872E611EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,7 +854,6 @@
 				2DCA155F1159350C002B77A0 /* OpenGL.framework in Frameworks */,
 				2DCA15601159350C002B77A0 /* SDL.framework in Frameworks */,
 				2DCA15611159350C002B77A0 /* SDL_image.framework in Frameworks */,
-				2DCA15621159350C002B77A0 /* libseed.a in Frameworks */,
 				2DCA15631159350C002B77A0 /* AppKit.framework in Frameworks */,
 				2DCA15641159350C002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA15651159350C002B77A0 /* Ogg.framework in Frameworks */,
@@ -830,6 +861,7 @@
 				2DCA15671159350C002B77A0 /* oggz.framework in Frameworks */,
 				2DCA15681159350C002B77A0 /* Theora.framework in Frameworks */,
 				2DCA15691159350C002B77A0 /* Vorbis.framework in Frameworks */,
+				2D1872E711EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -841,7 +873,6 @@
 				2DCA15901159356D002B77A0 /* OpenGL.framework in Frameworks */,
 				2DCA15911159356D002B77A0 /* SDL.framework in Frameworks */,
 				2DCA15921159356D002B77A0 /* SDL_image.framework in Frameworks */,
-				2DCA15931159356D002B77A0 /* libseed.a in Frameworks */,
 				2DCA15941159356D002B77A0 /* AppKit.framework in Frameworks */,
 				2DCA15951159356D002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA15961159356D002B77A0 /* Ogg.framework in Frameworks */,
@@ -849,6 +880,7 @@
 				2DCA15981159356D002B77A0 /* oggz.framework in Frameworks */,
 				2DCA15991159356D002B77A0 /* Theora.framework in Frameworks */,
 				2DCA159A1159356D002B77A0 /* Vorbis.framework in Frameworks */,
+				2D1872E811EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,11 +895,11 @@
 				2DCA15E411594A48002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA15E511594A48002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA15E611594A48002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA15E711594A48002B77A0 /* libseed.a in Frameworks */,
 				2DCA15E811594A48002B77A0 /* SDL.framework in Frameworks */,
 				2DCA15E911594A48002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA15EA11594A48002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA15EB11594A48002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872E911EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -882,11 +914,11 @@
 				2DCA160F11594A9C002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA161011594A9C002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA161111594A9C002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA161211594A9C002B77A0 /* libseed.a in Frameworks */,
 				2DCA161311594A9C002B77A0 /* SDL.framework in Frameworks */,
 				2DCA161411594A9C002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA161511594A9C002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA161611594A9C002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872EA11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -901,11 +933,11 @@
 				2DCA166111594C1E002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA166211594C1E002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA166311594C1E002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA166411594C1E002B77A0 /* libseed.a in Frameworks */,
 				2DCA166511594C1E002B77A0 /* SDL.framework in Frameworks */,
 				2DCA166611594C1E002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA166711594C1E002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA166811594C1E002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872EB11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -920,11 +952,11 @@
 				2DCA169111594CAF002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA169211594CAF002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA169311594CAF002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA169411594CAF002B77A0 /* libseed.a in Frameworks */,
 				2DCA169511594CAF002B77A0 /* SDL.framework in Frameworks */,
 				2DCA169611594CAF002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA169711594CAF002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA169811594CAF002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872EC11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -939,11 +971,11 @@
 				2DCA16D611594E1E002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA16D711594E1E002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA16D811594E1E002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA16D911594E1E002B77A0 /* libseed.a in Frameworks */,
 				2DCA16DA11594E1E002B77A0 /* SDL.framework in Frameworks */,
 				2DCA16DB11594E1E002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA16DC11594E1E002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA16DD11594E1E002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872ED11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -958,11 +990,11 @@
 				2DCA170911594F1E002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA170A11594F1E002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA170B11594F1E002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA170C11594F1E002B77A0 /* libseed.a in Frameworks */,
 				2DCA170D11594F1E002B77A0 /* SDL.framework in Frameworks */,
 				2DCA170E11594F1E002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA170F11594F1E002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA171011594F1E002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872EE11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -977,11 +1009,11 @@
 				2DCA1748115950E7002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA1749115950E7002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA174A115950E7002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA174B115950E7002B77A0 /* libseed.a in Frameworks */,
 				2DCA174C115950E7002B77A0 /* SDL.framework in Frameworks */,
 				2DCA174D115950E7002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA174E115950E7002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA174F115950E7002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872EF11EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,11 +1028,11 @@
 				2DCA17751159513F002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA17761159513F002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA17771159513F002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA17781159513F002B77A0 /* libseed.a in Frameworks */,
 				2DCA17791159513F002B77A0 /* SDL.framework in Frameworks */,
 				2DCA177A1159513F002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA177B1159513F002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA177C1159513F002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872F011EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,11 +1047,11 @@
 				2DCA17A51159519A002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA17A61159519A002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA17A71159519A002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA17A81159519A002B77A0 /* libseed.a in Frameworks */,
 				2DCA17A91159519A002B77A0 /* SDL.framework in Frameworks */,
 				2DCA17AA1159519A002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA17AB1159519A002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA17AC1159519A002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872F111EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1034,11 +1066,11 @@
 				2DCA182911595544002B77A0 /* Vorbis.framework in Frameworks */,
 				2DCA182A11595544002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA182B11595544002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA182C11595544002B77A0 /* libseed.a in Frameworks */,
 				2DCA182D11595544002B77A0 /* SDL.framework in Frameworks */,
 				2DCA182E11595544002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA182F11595544002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA183011595544002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872F211EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1053,11 +1085,11 @@
 				2DCFAF561154072D00E94EE6 /* Vorbis.framework in Frameworks */,
 				2DCA05B31157A89E002B77A0 /* Foundation.framework in Frameworks */,
 				2DCA06F21157A90E002B77A0 /* AppKit.framework in Frameworks */,
-				2DCA1452115927A5002B77A0 /* libseed.a in Frameworks */,
 				2DCA1499115928C3002B77A0 /* SDL.framework in Frameworks */,
 				2DCA149A115928C3002B77A0 /* SDL_image.framework in Frameworks */,
 				2DCA149D115928D5002B77A0 /* OpenAL.framework in Frameworks */,
 				2DCA149E115928D5002B77A0 /* OpenGL.framework in Frameworks */,
+				2D1872E311EB5A5900A8EB9F /* Seed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1127,11 +1159,11 @@
 		20286C32FDCF999611CA2CEA /* External Frameworks and Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				2D1872E211EB5A5900A8EB9F /* Seed.framework */,
 				2DCA149B115928D5002B77A0 /* OpenAL.framework */,
 				2DCA149C115928D5002B77A0 /* OpenGL.framework */,
 				2DCA1497115928C3002B77A0 /* SDL.framework */,
 				2DCA1498115928C3002B77A0 /* SDL_image.framework */,
-				2DCA1451115927A5002B77A0 /* libseed.a */,
 				2DCA06F11157A90E002B77A0 /* AppKit.framework */,
 				2DCA05B21157A89E002B77A0 /* Foundation.framework */,
 				2DCFAF491154072D00E94EE6 /* Ogg.framework */,
@@ -2300,6 +2332,10 @@
 		2DCA0CB61157CB82002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PREBINDING = NO;
 				PRODUCT_NAME = sprite_movie1;
 			};
@@ -2317,6 +2353,7 @@
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
 					"\"$(SRCROOT)/../../seed/project/Seed/build/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2327,6 +2364,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../seed.lw/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2340,6 +2378,10 @@
 		2DCA0EB011580217002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = sprite_movie2;
 			};
 			name = Debug;
@@ -2358,6 +2400,7 @@
 					"\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
 					"\"$(SRCROOT)/../../seed/project/Seed/build/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2368,6 +2411,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../seed.lw/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2381,6 +2425,10 @@
 		2DCA151711593427002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = sprite_movie3;
 			};
 			name = Debug;
@@ -2400,6 +2448,7 @@
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
 					"\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2411,6 +2460,7 @@
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
 					"\"$(SRCROOT)/../../seed.lw/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2424,6 +2474,10 @@
 		2DCA1558115934A0002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = sprite_movie4;
 			};
 			name = Debug;
@@ -2444,6 +2498,7 @@
 					"\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\"",
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2456,6 +2511,7 @@
 					"\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\"",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
 					"\"$(SRCROOT)/../../seed.lw/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2469,6 +2525,10 @@
 		2DCA15A51159356D002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = sprite_movie5;
 			};
 			name = Debug;
@@ -2489,6 +2549,7 @@
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\"",
 					"\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\"",
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2501,6 +2562,7 @@
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\"",
 					"\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\"",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2514,6 +2576,10 @@
 		2DCA15F611594A48002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = sprite_advanced1;
 			};
 			name = Debug;
@@ -2528,6 +2594,7 @@
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\"",
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2538,6 +2605,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2551,6 +2619,10 @@
 		2DCA162111594A9C002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = video_basic1;
 			};
 			name = Debug;
@@ -2565,6 +2637,7 @@
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\"",
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2575,6 +2648,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2588,6 +2662,10 @@
 		2DCA167311594C1E002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = sound_basic1;
@@ -2604,6 +2682,7 @@
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\"",
 					"\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2614,6 +2693,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\"$(SRCROOT)/../../seed.lw/Debug\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2627,6 +2707,10 @@
 		2DCA16A311594CAF002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = save_basic1;
@@ -2643,6 +2727,7 @@
 					"$(inherited)",
 					"\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\"",
 					"\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2653,6 +2738,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2666,6 +2752,10 @@
 		2DCA16E811594E1E002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = particle_basic1;
@@ -2682,6 +2772,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2692,6 +2783,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2705,6 +2797,10 @@
 		2DCA171B11594F1E002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
 				PRODUCT_NAME = input_basic1;
@@ -2721,6 +2817,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2731,6 +2828,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2744,6 +2842,10 @@
 		2DCA175A115950E7002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = gui_basic1;
 			};
 			name = Debug;
@@ -2758,6 +2860,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2768,6 +2871,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2781,6 +2885,10 @@
 		2DCA17871159513F002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = gui_basic2;
 			};
 			name = Debug;
@@ -2795,6 +2903,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2805,6 +2914,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2818,6 +2928,10 @@
 		2DCA17B71159519A002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = gui_basic3;
 			};
 			name = Debug;
@@ -2832,6 +2946,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2842,6 +2957,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2855,6 +2971,10 @@
 		2DCA183B11595544002B77A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				PRODUCT_NAME = gui_basic4;
 			};
 			name = Debug;
@@ -2869,6 +2989,7 @@
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed/project/Seed/build/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../dependency/macosx/10.4/debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2879,6 +3000,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"$(SRCROOT)/../../seed.lw/Debug\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2913,6 +3035,10 @@
 		2DCFA6721154014A00E94EE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				INFOPLIST_FILE = info.plist;
 				OTHER_LDFLAGS = "";
 				PREBINDING = NO;
@@ -2930,6 +3056,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../seed/project/Seed/build/Debug\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_MODEL_TUNING = G5;
@@ -2940,6 +3067,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../../seed.lw/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
@@ -2957,16 +3085,22 @@
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
-					"\"$(SRCROOT)/../../seed/project/Seed/build/Debug\"",
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug\"",
 				);
 				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_EXCEPTIONS = NO;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../common\"",
-					"\"$(SRCROOT)/../../seed.lw/include\"",
+					"\"$(SRCROOT)/../../seed/include\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug/SDL.framework/Headers\"",
 					"\"$(SRCROOT)/../../dependency/macosx/10.4/debug/SDL_image.framework/Headers\"",
 					/System/Library/Frameworks/OpenAL.framework/Headers,
@@ -2974,11 +3108,13 @@
 					"\"$(SRCROOT)/../../seed/project/Seed/build/Debug/Seed.framework/Headers\"",
 				);
 				INFOPLIST_FILE = info.plist;
-				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../seed.lw/Debug\"";
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../seed/project/Seed OSX/build/Debug\"",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = (
 					"-D_SDL_",
-					"-D_DEBUG_",
+					"-DDEBUG",
 					"-DYMEM_DEBUG",
 					"-DYMEM_PARANOID",
 				);
