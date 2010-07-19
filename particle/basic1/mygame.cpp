@@ -26,7 +26,7 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	cEmitter.Load(table[0]);
+	cEmitter.Load(table[3]);
 	cEmitter.SetSprite(SPT_PARTICLE);
 	cEmitter.SetPriority(10);
 	cEmitter.SetPosition(0.5f, 0.5f);

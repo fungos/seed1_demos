@@ -18,7 +18,7 @@ BOOL MyGame::Initialize()
 	cVideo.GoToFrame(50);
 	Log("TOTAL: %d", iFrames);
 	//cVideo.GoToFrame(frames / 2);
-	pRenderer->Add(&cVideo);
+	cScene.Add(&cVideo);
 	pScreen->FadeIn();
 
 	return TRUE;

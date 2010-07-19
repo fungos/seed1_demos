@@ -20,6 +20,7 @@ MyGame::MyGame()
 	, fntMain()
 	, iCount(0)
 {
+	cConfig.bDebugSprite = TRUE;
 }
 
 MyGame::~MyGame()

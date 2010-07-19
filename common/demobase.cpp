@@ -6,7 +6,7 @@ DemoBase::DemoBase()
 	pInput->AddKeyboardListener(this);
 
 	cConfig.SetRendererDeviceType(Seed::RendererDeviceDirectX8);
-	cConfig.SetVideoMode(Seed::Video_800x600);
+	cConfig.SetVideoMode(Seed::Video_iPhoneLandscape); //Video_800x600);
 	cConfig.SetFrameRate(Seed::FrameRateLockAt60);
 	cConfig.SetApplicationTitle("My awesome game");
 	cConfig.SetApplicationDescription("My awesome game description");

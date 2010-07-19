@@ -38,6 +38,7 @@ BOOL MyGame::Initialize()
 
 	sfxHelloWorld.Play();
 	sfxPickup.SetVolume(0.1f);
+	
 	musTheme.Load(BGM_THEME);
 	musTheme.SetVolume(0.5f);
 	musTheme.SetAutoUnload(TRUE);
@@ -53,11 +54,11 @@ BOOL MyGame::Update(f32 dt)
 	
 	if ((iCount % 10) == 0) 
 		sfxPickup.Play();
-	
+
 	if (iCount == 300)
 	{
-#if 0
-		musTheme2.Load("sound/basic1/theme.music");
+#if 0 // cross fade another music (in this case, the same music 0.o)
+		musTheme2.Load(BGM_THEME);
 		musTheme2.SetVolume(0.5f);
 		musTheme2.SetAutoUnload(TRUE);
 		pSoundSystem->PlayMusic(&musTheme2, 500);

@@ -7,6 +7,8 @@
 #include "sdl/assets.h"
 #elif defined(_WII_)
 #include "wii/assets.h"
+#elif defined(_IPHONE_)
+#include "iph/assets.h"
 #endif
 
 extern ISceneNode *pScene;

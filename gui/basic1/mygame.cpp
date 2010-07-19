@@ -17,7 +17,7 @@ MyGame::~MyGame()
 BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
-
+/*
 	// Collision by rect area
 	btnRect.Initialize(BTN_ID1);
 	btnRect.SetSprite(SPT_BTN_SPRITE);
@@ -27,7 +27,7 @@ BOOL MyGame::Initialize()
 	btnRect.AddListener(this);
 	cScene.Add(&btnRect);
 	pGuiManager->Add(&btnRect);
-
+*/
 	// Collision by pixel alpha
 	btnPixel.Initialize(BTN_ID2, Seed::CollisionByPixel);
 	btnPixel.SetSprite(SPT_BTN_SPRITE);

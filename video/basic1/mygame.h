@@ -21,7 +21,7 @@ class MyGame : public DemoBase
 	private:
 		Theora		cVideo;
 		u32 		iFrames;
-		u32		iCount;
+		u32			iCount;
 };
 
 #endif // __MYGAME_H__
