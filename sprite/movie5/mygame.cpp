@@ -20,15 +20,12 @@ BOOL MyGame::Initialize()
 
 	sptBody.Load(SPT_WITCHDOCTOR_BODY);
 	sptBody.SetPriority(1);
-	cScene.Add(&sptBody);
 
 	sptUpperBody.Load(SPT_WITCHDOCTOR_UPPER_BODY);
 	sptUpperBody.SetPriority(2);
-	cScene.Add(&sptUpperBody);
 
 	sptHead.Load(SPT_WITCHDOCTOR_HEAD);
 	sptHead.SetPriority(3);
-	cScene.Add(&sptHead);
 
 	tmBody.SetObject(&sptBody);
 	tmUpperBody.SetObject(&sptUpperBody);
