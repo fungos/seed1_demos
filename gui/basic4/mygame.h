@@ -26,11 +26,13 @@ class MyGame : public DemoBase, public IEventWidgetListener
 		Button		btnBtnA1;
 		Button		btnBtnA2;
 		WidgetContainer wcAreaA;
+		SceneNode<3> cSceneA;
 
 		Label		lblTitleB;
 		Button		btnBtnB1;
 		Button		btnBtnB2;
 		WidgetContainer wcAreaB;
+		SceneNode<3> cSceneB;
 
 		String		strEnabled;
 		String		strDisabled;
