@@ -15,7 +15,7 @@ BOOL MyGame::Initialize()
 
 	sptArrow.Load(SPT_ARROW);
 	sptArrow.SetPriority(1);
-	cScene.Add(&sptArrow);
+	//cScene.Add(&sptArrow);
 
 	//setup the keyframes
 	kf1.bTween		= TRUE;

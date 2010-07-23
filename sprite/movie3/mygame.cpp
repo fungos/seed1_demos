@@ -16,7 +16,6 @@ BOOL MyGame::Initialize()
 
 	sptSpotlight.Load(SPT_SPOTLIGHT);
 	sptSpotlight.SetPriority(1);
-	cScene.Add(&sptSpotlight);
 	timeline.SetObject(&sptSpotlight);
 
 	//setup the keyframes
