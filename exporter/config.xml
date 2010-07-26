@@ -1,3 +1,4 @@
+<!--
 <sexport>
 	<wii>
 		<output path="/media/d/SDK/seeddemos/data/wii/workdir/data" />
@@ -18,25 +19,26 @@
 		<sound input="/media/d/SDK/seeddemos/exporter/data/input" header-type="int" />
 	</sdl>
 </sexport>
-<!-- 
+-->
+<!-- -->
 <sexport>
 	<wii>
-		<output path="C:\Techfront\SDK\seeddemos\data\wii\workdir\data" />
-		<image input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
-		<music input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
-		<sound input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<output path="D:\SDK\seeddemos\data\wii\workdir\data" />
+		<image input="D:\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
+		<music input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<sound input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
 	</wii>
 	<iph>
-		<output path="C:\Techfront\SDK\seeddemos\data\iphone\workdir\data" />
-		<image input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
-		<music input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
-		<sound input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<output path="D:\SDK\seeddemos\data\iphone\workdir\data" />
+		<image input="D:\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
+		<music input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<sound input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
 	</iph>
 	<sdl>
-		<output path="C:\Techfront\SDK\seeddemos\data\sdl\workdir\data" />
-		<image input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
-		<music input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
-		<sound input="C:\Techfront\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<output path="D:\SDK\seeddemos\data\sdl\workdir\data" />
+		<image input="D:\SDK\seeddemos\exporter\data\input" header-type="int" res_height="600" res_width="800" />
+		<music input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
+		<sound input="D:\SDK\seeddemos\exporter\data\input" header-type="int" />
 	</sdl>
 </sexport>
--->
+<!-- -->
