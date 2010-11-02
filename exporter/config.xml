@@ -1,20 +1,20 @@
 <sexport>
 	<wii>
-		<output path="$(SEEDSDK)\seeddemos\data\wii\workdir\data" />
-		<image input="$(SEEDSDK)\seeddemos\exporter\data\input" res_height="600" res_width="800" />
-		<music input="$(SEEDSDK)\seeddemos\exporter\data\input" />
-		<sound input="$(SEEDSDK)\seeddemos\exporter\data\input" />
+		<output path="$(SEEDSDK)/seeddemos/data/wii/workdir/data" />
+		<image input="$(SEEDSDK)/seeddemos/exporter/data/input" res_height="600" res_width="800" />
+		<music input="$(SEEDSDK)/seeddemos/exporter/data/input" />
+		<sound input="$(SEEDSDK)/seeddemos/exporter/data/input" />
 	</wii>
 	<iph>
-		<output path="$(SEEDSDK)\seeddemos\data\iphone\workdir\data" />
-		<image input="$(SEEDSDK)\seeddemos\exporter\data\input" res_height="600" res_width="800" />
-		<music input="$(SEEDSDK)\seeddemos\exporter\data\input" />
-		<sound input="$(SEEDSDK)\seeddemos\exporter\data\input" />
+		<output path="$(SEEDSDK)/seeddemos/data/iphone/workdir/data" />
+		<image input="$(SEEDSDK)/seeddemos/exporter/data/input" res_height="600" res_width="800" />
+		<music input="$(SEEDSDK)/seeddemos/exporter/data/input" />
+		<sound input="$(SEEDSDK)/seeddemos/exporter/data/input" />
 	</iph>
 	<sdl>
-		<output path="$(SEEDSDK)\seeddemos\data\sdl\workdir\data" />
-		<image input="$(SEEDSDK)\seeddemos\exporter\data\input" res_height="600" res_width="800" />
-		<music input="$(SEEDSDK)\seeddemos\exporter\data\input" />
-		<sound input="$(SEEDSDK)\seeddemos\exporter\data\input" />
+		<output path="$(SEEDSDK)/seeddemos/data/sdl/workdir/data" />
+		<image input="$(SEEDSDK)/seeddemos/exporter/data/input" res_height="600" res_width="800" />
+		<music input="$(SEEDSDK)/seeddemos/exporter/data/input" />
+		<sound input="$(SEEDSDK)/seeddemos/exporter/data/input" />
 	</sdl>
 </sexport>
