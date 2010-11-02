@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="sprite-movie5"
 	ProjectGUID="{DC70FDD6-751D-423A-A438-5029883C5901}"
 	RootNamespace="Seed"
@@ -29,7 +29,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy &quot;%SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;&#x0D;&#x0A;copy &quot;%SEEDSDK%\seeddemos\data\sdl\workdir\libpng12-0.dll&quot; &quot;%SEEDSDK%\seeddemos\sprite\movie5\bin\debug\&quot;&#x0D;&#x0A;copy &quot;%SEEDSDK%\seeddemos\data\sdl\workdir\zlib1.dll&quot; &quot;%SEEDSDK%\seeddemos\sprite\movie5\bin\debug\&quot;&#x0D;&#x0A;"
 				Outputs="."
 			/>
 			<Tool
@@ -113,7 +113,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy &quot;%SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;&#x0D;&#x0A;copy &quot;%SEEDSDK%\seeddemos\data\sdl\workdir\libpng12-0.dll&quot; &quot;%SEEDSDK%\seeddemos\sprite\movie5\bin\debug\&quot;&#x0D;&#x0A;copy &quot;%SEEDSDK%\seeddemos\data\sdl\workdir\zlib1.dll&quot; &quot;%SEEDSDK%\seeddemos\sprite\movie5\bin\debug\&quot;&#x0D;&#x0A;"
 				Outputs="."
 			/>
 			<Tool

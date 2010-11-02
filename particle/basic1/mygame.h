@@ -22,6 +22,7 @@ class MyGame : public DemoBase
 
 	private:
 		ParticleEmitter cEmitter;
+		Particle cParticles[500];
 };
 
 #endif // __MYGAME_H__

@@ -30,6 +30,7 @@ BOOL MyGame::Initialize()
 	cEmitter.SetSprite(SPT_PARTICLE);
 	cEmitter.SetPriority(10);
 	cEmitter.SetPosition(0.5f, 0.5f);
+	cEmitter.SetParticlesBuffer(&cParticles[0], 500);
 	cEmitter.Play();
 	cScene.Add(&cEmitter);
 	pParticleManager->Add(&cEmitter);

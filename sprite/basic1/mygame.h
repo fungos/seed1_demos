@@ -16,12 +16,7 @@ class MyGame : public DemoBase
 		SEED_DISABLE_COPY(MyGame);
 
 	private:
-		//u8 buff[7658];
-		//u8 buff[288];
-		u8 buff[2557];
 		Sprite spt;
-		Sprite x[100];
-		//Sprite spt[8];
 		f32 fRot;
 		u32 iCol;
 		u32 iCount;
