@@ -29,7 +29,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy %SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll %SEEDSDK%\seeddemos\data\sdl\workdir"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
 				Outputs="."
 			/>
 			<Tool
@@ -112,7 +112,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy %SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll %SEEDSDK%\seeddemos\data\sdl\workdir"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
 				Outputs="."
 			/>
 			<Tool
