@@ -1,0 +1,9 @@
+*.o
+*.fungos.user
+assets.h
+exporter/*.txt
+exporter/*.log
+exporter/sdl/*.txt
+exporter/seeddemos.h
+bin/*
+!bin/empty
