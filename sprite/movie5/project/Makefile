@@ -3,11 +3,11 @@ include Objects.in
 TARGET = ../../../bin/$(PROJECT)
 
 GCC = g++
-CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I/media/d/SDK//seed/include -I/media/d/SDK//seeddemos/common/sdl -I..
+CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I$(SEEDSDK)/seed/include -I$(SEEDSDK)/seeddemos/common/sdl -I..
 CDEFS = -D_SDL_ -DDEBUG
-LFLAGS = `sdl-config --libs` -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora
+LIBS = -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora
 CPPFLAGS = $(CFLAGS)
-LIBS = -L/media/d/SDK//seed/bin
+LFLAGS = `sdl-config --libs` -L$(SEEDSDK)/seed/bin
 
 all:	$(TARGET)
 

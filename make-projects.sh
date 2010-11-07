@@ -2,9 +2,16 @@
 
 #find | grep -v cpp | grep -v '\.h' | grep -v '\.o' | grep -v project | grep -v '\.git' | grep -v bin | grep -v data | grep -v LICENSE | grep -v Classes | grep -v Basic1 | grep -v '\.mm' | grep -v exporter | grep -v common | grep -v demos.txt | grep -v '.sln' > demos.txt
 
-SEEDSDK=/media/d/SDK/
 PROJECTS=`cat demos.txt`
 ORIG=`pwd`
+
+cd exporter
+./run.sh
+
+cd ../bin
+ln -s ../data/sdl/workdir/data data
+
+cd ..
 
 for PROJECT in $PROJECTS;
 do
@@ -18,11 +25,11 @@ do
 	echo "TARGET = ../../../bin/\$(PROJECT)" >> Makefile
 	echo "" >> Makefile
 	echo "GCC = g++" >> Makefile
-	echo "CFLAGS = -Wall -fPIC -g \`sdl-config --cflags\` \$(CDEFS) -I$SEEDSDK/seed/include -I$SEEDSDK/seeddemos/common/sdl -I.." >> Makefile
+	echo "CFLAGS = -Wall -fPIC -g \`sdl-config --cflags\` \$(CDEFS) -I\$(SEEDSDK)/seed/include -I\$(SEEDSDK)/seeddemos/common/sdl -I.." >> Makefile
 	echo "CDEFS = -D_SDL_ -DDEBUG" >> Makefile
-	echo "LFLAGS = \`sdl-config --libs\` -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora" >> Makefile
+	echo "LIBS = -lSDL_image -lopenal -lGL -lSeed -logg -lvorbis -lvorbisfile -loggz -loggplay -ltheora" >> Makefile
 	echo "CPPFLAGS = \$(CFLAGS)" >> Makefile
-	echo "LIBS = -L$SEEDSDK/seed/bin" >> Makefile
+	echo "LFLAGS = \`sdl-config --libs\` -L\$(SEEDSDK)/seed/bin" >> Makefile
 	echo "" >> Makefile
 	echo "all:	\$(TARGET)" >> Makefile
 	echo "" >> Makefile

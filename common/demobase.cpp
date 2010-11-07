@@ -58,6 +58,7 @@ BOOL DemoBase::Update(f32 dt)
 
 BOOL DemoBase::Shutdown()
 {
+	sptLogo.Unload();
 	return IGameApp::Shutdown();
 }
 

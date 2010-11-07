@@ -5,4 +5,7 @@ we does not have unity tests. We will add more and more demos here and improve S
 documentation based on these demos. The demos must work on every supported platform
 and must avoid any type of conditional compilation.
 
+On Linux run make-project.sh to build all demos after setting you SEEDSDK environment
+variable and compiling Seed.
+
 Danny
