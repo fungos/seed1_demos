@@ -44,6 +44,8 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 		Viewport	cViewport;
 		Renderer	cRenderer;
 		Sprite		sptLogo;
+		
+		f32 fInfoElapsedTime;
 };
 
 #endif // __DEMOBASE_H__

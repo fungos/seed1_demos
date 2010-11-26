@@ -10,15 +10,12 @@
 #import <platform/iphone/IphoneView.h>
 #include <Seed.h>
 
-@class EAGLView;
-
-@interface SeedAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
-	AppView  *view;
+@interface SeedDelegate : NSObject <UIApplicationDelegate> 
+{
+    UIWindow *pWindow;
+	SeedView *pView;
+	SeedController *pController;
 }
-
-@property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet UIView *view;
 
 @end
 

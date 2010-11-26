@@ -9,43 +9,50 @@
 #import "SeedAppDelegate.h"
 #import <Seed.h>
 
-@implementation SeedAppDelegate
+@implementation SeedDelegate
 
-@synthesize window;
-@synthesize view;
-
-
-- (void)applicationDidFinishLaunching:(UIApplication *)application 
+- (void)applicationDidFinishLaunching: (UIApplication *)application 
 {
 	//[application setStatusBarStyle:UIStatusBarStyleBlackTranslucent animated:NO];
-	[application setStatusBarHidden:YES animated:NO];
-
+	//[application setStatusBarHidden:YES withAnimation:UIStatusBarAnimationNone]; // Does not work with firmware bellow 3.2 and exceptions disabled!
+	
+	pWindow = [[UIWindow alloc] initWithFrame: [[UIScreen mainScreen] bounds]];
+	pView = [[SeedView alloc] initWithFrame: [pWindow bounds]];
+	
+	pController = [[SeedController alloc] initWithView: pView];
 	f32 time = 1.0f / (f32)pConfiguration->GetFrameRate();
-	[view SetUpdateRate: time];
-	[view Start];
+	[pController SetUpdateRate: time];
+	[pController Start];
+	
+	pWindow.backgroundColor = [UIColor yellowColor];
+	[pWindow addSubview: pController.view];
+	[pWindow makeKeyAndVisible];
+
+	[[UIApplication sharedApplication] setIdleTimerDisabled: YES];
 }
 
 
-- (void)applicationWillResignActive:(UIApplication *)application 
+- (void)applicationWillResignActive: (UIApplication *)application 
 {
-	[view Pause];
+	[pController Pause];
 }
 
 
-- (void)applicationDidBecomeActive:(UIApplication *)application 
+- (void)applicationDidBecomeActive: (UIApplication *)application 
 {
 }
 
 
-- (void)applicationWillTerminate:(UIApplication *)application
+- (void)applicationWillTerminate: (UIApplication *)application
 {
-	[view Stop];
+	[pController Stop];
 }
 
 
-- (void)dealloc {
-	[window release];
-	[view release];
+- (void)dealloc 
+{
+	[pWindow release];
+	[pController release];
 	[super dealloc];
 }
 

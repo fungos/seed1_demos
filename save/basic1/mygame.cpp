@@ -35,14 +35,14 @@ void MyGame::Setup(int argc, char **argv)
 	DemoBase::Setup(argc, argv);
 
 	// FIXME: This must be done magically by the SDK, user don't care and will be pissed off to do this kind of stuff.
-	// FIXME: wchar_t/char
+	// FIXME: wchar_t/char/FilePath
 	{
-		char tmpPath[MAX_FOLDER_SIZE];
+		FilePath tmpPath[MAX_FOLDER_SIZE];
 		snprintf(tmpPath, MAX_FOLDER_SIZE, "%s%s/", pSystem->GetHomeFolder(), "/MyPublisher");
-		pFileSystem->MakeDirectory((wchar_t *)tmpPath);
+		pFileSystem->MakeDirectory(tmpPath);
 		snprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, "%s%s/", tmpPath, cConfig.GetApplicationTitle());
-		pFileSystem->MakeDirectory((wchar_t *)pcSaveGameFolder);
-		pFileSystem->SetWriteableDirectory((wchar_t *)pcSaveGameFolder);
+		pFileSystem->MakeDirectory(pcSaveGameFolder);
+		pFileSystem->SetWriteableDirectory(pcSaveGameFolder);
 	}
 
 	pSaveSystem->SetTotalSlots(5);

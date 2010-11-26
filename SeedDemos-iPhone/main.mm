@@ -1,29 +1,25 @@
-//
-//  main.m
-//  Basic1
-//
-//  Created by Danny Grein on 2/17/09.
-//  Copyright TechFront Studios 2009. All rights reserved.
-//
+//  Created by Danny Grein on 10/13/08.
+//  Copyright TechFront Studios 2008. All rights reserved.
 
 #import <UIKit/UIKit.h>
 
 #include <Seed.h>
-#include "mygame.h"
+#include "BI_GameFlow.h"
 
 using namespace Seed;
 
-ISceneNode *pScene = NULL;
-ISceneNode *pSceneStatic = NULL;
+ISceneNode *pRenderer;
+ISceneNode *pRendererStatic;
+BI_Sound *pSound;
 
-int main(int argc, char *argv[]) 
-{   
+int main(int argc, char *argv[])
+{ 
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
-
-	MyGame app;
-	Seed::SetGameApp(&app, argc, argv);
-
-    int retVal = UIApplicationMain(argc, argv, nil, nil);
+	
+	//cBI_GameFlow app;
+	Seed::SetGameApp(pBI_GameFlow, argc, argv);
+	
+    int retVal = UIApplicationMain(argc, argv, nil, @"SeedDelegate");
     [pool release];
     return retVal;
 }

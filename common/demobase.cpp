@@ -1,13 +1,15 @@
 #include "demobase.h"
 
 DemoBase::DemoBase()
+	: fInfoElapsedTime(0.0f)
 {
-	pSystem->AddListener(this);
-	pInput->AddKeyboardListener(this);
-
 	cConfig.SetRendererDeviceType(Seed::RendererDeviceDirectX8);
-	//cConfig.SetVideoMode(Seed::Video_iPhoneLandscape);
+#if defined(_IPHONE_)
+	cConfig.SetVideoMode(Seed::Video_iPhoneLandscape);
+	cConfig.SetPlatformSimulation(Seed::SimulateIOS3G);
+#else
 	cConfig.SetVideoMode(Seed::Video_800x600);
+#endif // _IPHONE_
 	cConfig.SetFrameRate(Seed::FrameRateLockAt60);
 	//cConfig.bDebugSprite = TRUE;
 	cConfig.SetApplicationTitle("My awesome game");
@@ -16,14 +18,15 @@ DemoBase::DemoBase()
 
 DemoBase::~DemoBase()
 {
-	pInput->RemoveKeyboardListener(this);
-	pSystem->RemoveListener(this);
 }
 
 BOOL DemoBase::Initialize()
 {
 	IGameApp::Initialize();
 
+	pSystem->AddListener(this);
+	pInput->AddKeyboardListener(this);
+	
 	/* ------- Rendering Initialization ------- */
 	cScene.SetPriority(0);
 	cSceneStatic.SetPriority(20000);
@@ -53,12 +56,31 @@ BOOL DemoBase::Initialize()
 
 BOOL DemoBase::Update(f32 dt)
 {
+	fInfoElapsedTime += dt;
+	if (fInfoElapsedTime > 5.0f)
+	{
+		Log("Memory Info: ");
+		pMemoryManager->Info();
+		
+		Log("Resource Memory: ");
+		pResourceManager->PrintUsedMemoryByResource();
+		
+		Log("Snapshot: ");
+		pDefaultPool->Print();
+	
+		fInfoElapsedTime = 0.0f;
+	}
+	
 	return TRUE;
 }
 
 BOOL DemoBase::Shutdown()
 {
 	sptLogo.Unload();
+	
+	pInput->RemoveKeyboardListener(this);
+	pSystem->RemoveListener(this);
+	
 	return IGameApp::Shutdown();
 }
 
