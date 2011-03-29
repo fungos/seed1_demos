@@ -32,8 +32,6 @@ MyGame::~MyGame()
 
 void MyGame::Setup(int argc, char **argv)
 {
-	DemoBase::Setup(argc, argv);
-
 	// FIXME: This must be done magically by the SDK, user don't care and will be pissed off to do this kind of stuff.
 	// FIXME: wchar_t/char/FilePath
 	{

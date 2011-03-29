@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="Windows-1252"?>
 <VisualStudioProject
 	ProjectType="Visual C++"
-	Version="9.00"
+	Version="9,00"
 	Name="video-basic1"
 	ProjectGUID="{7980892E-2835-4C6E-8E90-710F6D71683E}"
 	RootNamespace="Seed"
@@ -29,7 +29,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy &quot;%SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\debug\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;&#x0D;&#x0A;"
 				Outputs="."
 			/>
 			<Tool
@@ -112,7 +112,7 @@
 			<Tool
 				Name="VCCustomBuildTool"
 				Description="Copying Seed.dll to SDL workdir"
-				CommandLine="copy &quot;%SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;"
+				CommandLine="copy &quot;%SEEDSDK%\seed\bin\release\dynamic\vs8\Seed.dll&quot; &quot;%SEEDSDK%\seeddemos\data\sdl\workdir&quot;&#x0D;&#x0A;"
 				Outputs="."
 			/>
 			<Tool
@@ -148,7 +148,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="opengl32.lib glu32.lib sdl.lib sdlmain.lib openal32.lib sdl_image.lib seed.lib vorbis_static.lib vorbisfile_static.lib ogg_static.lib libtheora_static.lib liboggz_static.lib liboggplay_static.lib"
 				LinkIncremental="1"
-				AdditionalLibraryDirectories="&quot;$(SEEDSDK)\Seed\bin\release\vs8&quot;;&quot;$(SEEDSDK)\dependency\vc8\lib&quot;"
+				AdditionalLibraryDirectories="&quot;$(SEEDSDK)\Seed\bin\release\dynamic\vs8&quot;;&quot;$(SEEDSDK)\dependency\vc8\lib&quot;"
 				IgnoreDefaultLibraryNames="LIBCMT.lib;LIBCMTD.lib"
 				GenerateDebugInformation="true"
 				SubSystem="2"

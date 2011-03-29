@@ -54,8 +54,23 @@
 		2D1873F611EB5B7200A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
 		2D1873F711EB5B7700A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
 		2D1873F811EB5B8000A8EB9F /* Seed.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2D1872E211EB5A5900A8EB9F /* Seed.framework */; };
+		2D8C89561338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89571338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89581338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89591338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895A1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895B1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895C1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895D1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895E1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C895F1338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89601338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89611338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89621338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89631338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89641338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
+		2D8C89651338FEF400389825 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8C89551338FEF400389825 /* SDLMain.m */; };
 		2DCA05661157A623002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
-		2DCA05981157A847002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA05B31157A89E002B77A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA05B21157A89E002B77A0 /* Foundation.framework */; };
 		2DCA06F21157A90E002B77A0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA06F11157A90E002B77A0 /* AppKit.framework */; };
 		2DCA0A5F1157AE87002B77A0 /* Ogg.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -65,7 +80,6 @@
 		2DCA0A6F1157AE98002B77A0 /* Theora.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4E1154072D00E94EE6 /* Theora.framework */; };
 		2DCA0BD31157B012002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
 		2DCA0C9B1157CB82002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA0C9D1157CB82002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA0C9F1157CB82002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA0CC91157CC5F002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA0CCA1157CC5F002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
@@ -83,7 +97,6 @@
 		2DCA0D061157CE83002B77A0 /* Theora.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4E1154072D00E94EE6 /* Theora.framework */; };
 		2DCA0D071157CE83002B77A0 /* Vorbis.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA0E9411580217002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA0E9711580217002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA0E9811580217002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA0E9911580217002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA0EA811580217002B77A0 /* Theora.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4E1154072D00E94EE6 /* Theora.framework */; };
@@ -118,7 +131,6 @@
 		2DCA14F011593360002B77A0 /* SDL.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1497115928C3002B77A0 /* SDL.framework */; };
 		2DCA14F111593360002B77A0 /* SDL_image.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA14FA11593427002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA14FC11593427002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA14FE11593427002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA14FF11593427002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA151C1159345F002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -141,7 +153,6 @@
 		2DCA152E1159346D002B77A0 /* Vorbis.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA152F11593483002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5BF1154012200E94EE6 /* mygame.cpp */; };
 		2DCA153B115934A0002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA153D115934A0002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA153F115934A0002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA1540115934A0002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA155E1159350C002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -164,7 +175,6 @@
 		2DCA157011593514002B77A0 /* Vorbis.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4F1154072D00E94EE6 /* Vorbis.framework */; };
 		2DCA157E11593550002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5C91154012200E94EE6 /* mygame.cpp */; };
 		2DCA15881159356D002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA158A1159356D002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA158C1159356D002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA158D1159356D002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA158F1159356D002B77A0 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCA149B115928D5002B77A0 /* OpenAL.framework */; };
@@ -187,7 +197,6 @@
 		2DCA15A31159356D002B77A0 /* SDL_image.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCA1498115928C3002B77A0 /* SDL_image.framework */; };
 		2DCA15AE115935AD002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5D31154012200E94EE6 /* mygame.cpp */; };
 		2DCA15D911594A48002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA15DB11594A48002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA15DC11594A48002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA15DE11594A48002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA15E011594A48002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -210,7 +219,6 @@
 		2DCA15F411594A48002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA15FC11594A7E002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA58B1154012200E94EE6 /* mygame.cpp */; };
 		2DCA160411594A9C002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA160611594A9C002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA160711594A9C002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA160911594A9C002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA160B11594A9C002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -233,7 +241,6 @@
 		2DCA161F11594A9C002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA162611594B09002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5DE1154012200E94EE6 /* mygame.cpp */; };
 		2DCA165611594C1E002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA165811594C1E002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA165911594C1E002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA165B11594C1E002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA165D11594C1E002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -256,7 +263,6 @@
 		2DCA167111594C1E002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA167D11594C72002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5801154012200E94EE6 /* mygame.cpp */; };
 		2DCA168611594CAF002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA168811594CAF002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA168A11594CAF002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA168B11594CAF002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA168D11594CAF002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -279,7 +285,6 @@
 		2DCA16A111594CAF002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA16A811594CDD002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5751154012200E94EE6 /* mygame.cpp */; };
 		2DCA16CB11594E1E002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA16CE11594E1E002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA16CF11594E1E002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA16D011594E1E002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA16D211594E1E002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -302,7 +307,6 @@
 		2DCA16E611594E1E002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA16ED11594E49002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5691154012200E94EE6 /* mygame.cpp */; };
 		2DCA16FE11594F1E002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA170111594F1E002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA170211594F1E002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA170311594F1E002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA170511594F1E002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -325,7 +329,6 @@
 		2DCA171911594F1E002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA172011594F3A002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA55E1154012200E94EE6 /* mygame.cpp */; };
 		2DCA173D115950E7002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA1740115950E7002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA1741115950E7002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA1742115950E7002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA1744115950E7002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -348,7 +351,6 @@
 		2DCA1758115950E7002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA175F11595107002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5341154012200E94EE6 /* mygame.cpp */; };
 		2DCA176A1159513F002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA176D1159513F002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA176E1159513F002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA176F1159513F002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA17711159513F002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -371,7 +373,6 @@
 		2DCA17851159513F002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA178C11595167002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA53E1154012200E94EE6 /* mygame.cpp */; };
 		2DCA179A1159519A002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA179C1159519A002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA179E1159519A002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA179F1159519A002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA17A11159519A002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -394,7 +395,6 @@
 		2DCA17B51159519A002B77A0 /* oggz.framework in Copy Frameworks Files */ = {isa = PBXBuildFile; fileRef = 2DCFAF4B1154072D00E94EE6 /* oggz.framework */; };
 		2DCA17BC115951B0002B77A0 /* mygame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA5481154012200E94EE6 /* mygame.cpp */; };
 		2DCA181E11595544002B77A0 /* data in Resources */ = {isa = PBXBuildFile; fileRef = 2DCA0B6E1157B012002B77A0 /* data */; };
-		2DCA182111595544002B77A0 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA05971157A847002B77A0 /* SDLMain.m */; };
 		2DCA182211595544002B77A0 /* demobase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCFA52B1154012200E94EE6 /* demobase.cpp */; };
 		2DCA182311595544002B77A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2DCA0CC81157CC5F002B77A0 /* main.cpp */; };
 		2DCA182511595544002B77A0 /* Ogg.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DCFAF491154072D00E94EE6 /* Ogg.framework */; };
@@ -718,8 +718,8 @@
 /* Begin PBXFileReference section */
 		0867D6ABFE840B52C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2D1872E211EB5A5900A8EB9F /* Seed.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Seed.framework; path = "../../seed/project/Seed OSX/build/Debug/Seed.framework"; sourceTree = SOURCE_ROOT; };
-		2DCA05961157A847002B77A0 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
-		2DCA05971157A847002B77A0 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		2D8C89541338FEF400389825 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
+		2D8C89551338FEF400389825 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
 		2DCA05B21157A89E002B77A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		2DCA06F11157A90E002B77A0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		2DCA0B6E1157B012002B77A0 /* data */ = {isa = PBXFileReference; lastKnownFileType = folder; name = data; path = ../data/sdl/workdir/data; sourceTree = SOURCE_ROOT; };
@@ -1178,9 +1178,9 @@
 		2DCFA52A1154012200E94EE6 /* common */ = {
 			isa = PBXGroup;
 			children = (
+				2D8C89541338FEF400389825 /* SDLMain.h */,
+				2D8C89551338FEF400389825 /* SDLMain.m */,
 				2DCA0CC81157CC5F002B77A0 /* main.cpp */,
-				2DCA05961157A847002B77A0 /* SDLMain.h */,
-				2DCA05971157A847002B77A0 /* SDLMain.m */,
 				2DCFA52B1154012200E94EE6 /* demobase.cpp */,
 				2DCFA52C1154012200E94EE6 /* demobase.h */,
 			);
@@ -1744,7 +1744,14 @@
 			isa = PBXProject;
 			buildConfigurationList = C0E91AC908A95435008D54AB /* Build configuration list for PBXProject "SeedDemos" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
 			mainGroup = 20286C29FDCF999611CA2CEA /* SeedDemos */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -2144,9 +2151,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA0CD21157CC90002B77A0 /* mygame.cpp in Sources */,
-				2DCA0C9D1157CB82002B77A0 /* SDLMain.m in Sources */,
 				2DCA0C9F1157CB82002B77A0 /* demobase.cpp in Sources */,
 				2DCA0CCA1157CC5F002B77A0 /* main.cpp in Sources */,
+				2D8C89651338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2154,10 +2161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA0E9711580217002B77A0 /* SDLMain.m in Sources */,
 				2DCA0EB511580247002B77A0 /* mygame.cpp in Sources */,
 				2DCA0E9811580217002B77A0 /* demobase.cpp in Sources */,
 				2DCA0E9911580217002B77A0 /* main.cpp in Sources */,
+				2D8C89571338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2165,10 +2172,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA14FC11593427002B77A0 /* SDLMain.m in Sources */,
 				2DCA152F11593483002B77A0 /* mygame.cpp in Sources */,
 				2DCA14FE11593427002B77A0 /* demobase.cpp in Sources */,
 				2DCA14FF11593427002B77A0 /* main.cpp in Sources */,
+				2D8C89581338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2176,10 +2183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA153D115934A0002B77A0 /* SDLMain.m in Sources */,
 				2DCA157E11593550002B77A0 /* mygame.cpp in Sources */,
 				2DCA153F115934A0002B77A0 /* demobase.cpp in Sources */,
 				2DCA1540115934A0002B77A0 /* main.cpp in Sources */,
+				2D8C89591338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2188,9 +2195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA15AE115935AD002B77A0 /* mygame.cpp in Sources */,
-				2DCA158A1159356D002B77A0 /* SDLMain.m in Sources */,
 				2DCA158C1159356D002B77A0 /* demobase.cpp in Sources */,
 				2DCA158D1159356D002B77A0 /* main.cpp in Sources */,
+				2D8C895A1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2198,10 +2205,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA15DB11594A48002B77A0 /* SDLMain.m in Sources */,
 				2DCA15FC11594A7E002B77A0 /* mygame.cpp in Sources */,
 				2DCA15DC11594A48002B77A0 /* demobase.cpp in Sources */,
 				2DCA15DE11594A48002B77A0 /* main.cpp in Sources */,
+				2D8C895B1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2210,9 +2217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA162611594B09002B77A0 /* mygame.cpp in Sources */,
-				2DCA160611594A9C002B77A0 /* SDLMain.m in Sources */,
 				2DCA160711594A9C002B77A0 /* demobase.cpp in Sources */,
 				2DCA160911594A9C002B77A0 /* main.cpp in Sources */,
+				2D8C895C1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2220,10 +2227,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA165811594C1E002B77A0 /* SDLMain.m in Sources */,
 				2DCA167D11594C72002B77A0 /* mygame.cpp in Sources */,
 				2DCA165911594C1E002B77A0 /* demobase.cpp in Sources */,
 				2DCA165B11594C1E002B77A0 /* main.cpp in Sources */,
+				2D8C895D1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2232,9 +2239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA16A811594CDD002B77A0 /* mygame.cpp in Sources */,
-				2DCA168811594CAF002B77A0 /* SDLMain.m in Sources */,
 				2DCA168A11594CAF002B77A0 /* demobase.cpp in Sources */,
 				2DCA168B11594CAF002B77A0 /* main.cpp in Sources */,
+				2D8C895E1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2243,9 +2250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA16ED11594E49002B77A0 /* mygame.cpp in Sources */,
-				2DCA16CE11594E1E002B77A0 /* SDLMain.m in Sources */,
 				2DCA16CF11594E1E002B77A0 /* demobase.cpp in Sources */,
 				2DCA16D011594E1E002B77A0 /* main.cpp in Sources */,
+				2D8C895F1338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2254,9 +2261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA172011594F3A002B77A0 /* mygame.cpp in Sources */,
-				2DCA170111594F1E002B77A0 /* SDLMain.m in Sources */,
 				2DCA170211594F1E002B77A0 /* demobase.cpp in Sources */,
 				2DCA170311594F1E002B77A0 /* main.cpp in Sources */,
+				2D8C89601338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2265,9 +2272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA175F11595107002B77A0 /* mygame.cpp in Sources */,
-				2DCA1740115950E7002B77A0 /* SDLMain.m in Sources */,
 				2DCA1741115950E7002B77A0 /* demobase.cpp in Sources */,
 				2DCA1742115950E7002B77A0 /* main.cpp in Sources */,
+				2D8C89611338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2275,10 +2282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA176D1159513F002B77A0 /* SDLMain.m in Sources */,
 				2DCA178C11595167002B77A0 /* mygame.cpp in Sources */,
 				2DCA176E1159513F002B77A0 /* demobase.cpp in Sources */,
 				2DCA176F1159513F002B77A0 /* main.cpp in Sources */,
+				2D8C89621338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2287,9 +2294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA17BC115951B0002B77A0 /* mygame.cpp in Sources */,
-				2DCA179C1159519A002B77A0 /* SDLMain.m in Sources */,
 				2DCA179E1159519A002B77A0 /* demobase.cpp in Sources */,
 				2DCA179F1159519A002B77A0 /* main.cpp in Sources */,
+				2D8C89631338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2298,9 +2305,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DCA184111595570002B77A0 /* mygame.cpp in Sources */,
-				2DCA182111595544002B77A0 /* SDLMain.m in Sources */,
 				2DCA182211595544002B77A0 /* demobase.cpp in Sources */,
 				2DCA182311595544002B77A0 /* main.cpp in Sources */,
+				2D8C89641338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2308,10 +2315,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCA05981157A847002B77A0 /* SDLMain.m in Sources */,
 				2DCA05661157A623002B77A0 /* demobase.cpp in Sources */,
 				2DCFA6761154017100E94EE6 /* mygame.cpp in Sources */,
 				2DCA0CC91157CC5F002B77A0 /* main.cpp in Sources */,
+				2D8C89561338FEF400389825 /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

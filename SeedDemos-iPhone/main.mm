@@ -4,20 +4,19 @@
 #import <UIKit/UIKit.h>
 
 #include <Seed.h>
-#include "BI_GameFlow.h"
+#include "mygame.h"
 
 using namespace Seed;
 
-ISceneNode *pRenderer;
-ISceneNode *pRendererStatic;
-BI_Sound *pSound;
+ISceneNode *pScene;
+ISceneNode *pSceneStatic;
 
 int main(int argc, char *argv[])
 { 
     NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
 	
-	//cBI_GameFlow app;
-	Seed::SetGameApp(pBI_GameFlow, argc, argv);
+	MyGame app;
+	Seed::SetGameApp(&app, argc, argv);
 	
     int retVal = UIApplicationMain(argc, argv, nil, @"SeedDelegate");
     [pool release];
