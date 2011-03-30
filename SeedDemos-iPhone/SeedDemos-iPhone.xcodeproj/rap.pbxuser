@@ -8,8 +8,8 @@
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
-		activeExecutable = 2D5646ED11EF822D0058B701 /* ParticleBasic1 */;
-		activeTarget = 1D6058900D05DD3D006BFB54 /* SpriteBasic1 */;
+		activeExecutable = 2D56470B11EF82640058B701 /* VideoBasic1 */;
+		activeTarget = 2D56470911EF82640058B701 /* VideoBasic1 */;
 		addToTargets = (
 			2D5646FF11EF824C0058B701 /* SoundBasic1 */,
 			2D5646F511EF823C0058B701 /* SaveBasic1 */,
@@ -130,11 +130,10 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 322502973;
-			PBXWorkspaceStateSaveDate = 322502973;
+			PBXPerProjectTemplateStateSaveDate = 323214696;
+			PBXWorkspaceStateSaveDate = 323214696;
 		};
 		perUserProjectItems = {
-			2D564B5011F09EC50058B701 /* PBXTextBookmark */ = 2D564B5011F09EC50058B701 /* PBXTextBookmark */;
 			2D564DDF11F0F1DA0058B701 /* PBXTextBookmark */ = 2D564DDF11F0F1DA0058B701 /* PBXTextBookmark */;
 			2D564DE611F0F1DA0058B701 /* PBXTextBookmark */ = 2D564DE611F0F1DA0058B701 /* PBXTextBookmark */;
 			2D564DE711F0F1DA0058B701 /* PBXTextBookmark */ = 2D564DE711F0F1DA0058B701 /* PBXTextBookmark */;
@@ -172,8 +171,9 @@
 			2D7D5D62121AD8B600D2ACE3 /* PBXTextBookmark */ = 2D7D5D62121AD8B600D2ACE3 /* PBXTextBookmark */;
 			2D8C8A371339026200389825 /* PBXTextBookmark */ = 2D8C8A371339026200389825 /* PBXTextBookmark */;
 			2D8C8A381339026200389825 /* PBXTextBookmark */ = 2D8C8A381339026200389825 /* PBXTextBookmark */;
-			2D8C8F8E133905C500389825 /* PBXTextBookmark */ = 2D8C8F8E133905C500389825 /* PBXTextBookmark */;
-			2D8C8F8F133905C500389825 /* PBXTextBookmark */ = 2D8C8F8F133905C500389825 /* PBXTextBookmark */;
+			2DD2F25B1343E738000B7262 /* PBXTextBookmark */ = 2DD2F25B1343E738000B7262 /* PBXTextBookmark */;
+			2DD2F25C1343E738000B7262 /* XCBuildMessageTextBookmark */ = 2DD2F25C1343E738000B7262 /* XCBuildMessageTextBookmark */;
+			2DD2F25D1343E738000B7262 /* PBXTextBookmark */ = 2DD2F25D1343E738000B7262 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 2D56348B11EBC2310058B701 /* Source Control */;
 		userBuildSettings = {
@@ -227,9 +227,9 @@
 	};
 	2D56348E11EBC2680058B701 /* main.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1023, 351}}";
-			sepNavSelRange = "{143, 0}";
-			sepNavVisRange = "{0, 336}";
+			sepNavIntBoundsRect = "{{0, 0}, {706, 612}}";
+			sepNavSelRange = "{499, 0}";
+			sepNavVisRange = "{0, 499}";
 			sepNavWindowFrame = "{{38, 198}, {1086, 804}}";
 		};
 	};
@@ -881,6 +881,11 @@
 		name = mygame.h;
 		path = "/techfront/SDK/seeddemos/SeedDemos-iPhone/../video/basic1/mygame.h";
 		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1023, 364}}";
+			sepNavSelRange = "{301, 0}";
+			sepNavVisRange = "{162, 217}";
+		};
 	};
 	2D5648BD11EF97DD0058B701 /* PcFileSystem.h */ = {
 		isa = PBXFileReference;
@@ -895,16 +900,6 @@
 		name = IFileSystem.cpp;
 		path = /techfront/SDK/seed/source/interface/IFileSystem.cpp;
 		sourceTree = "<absolute>";
-	};
-	2D564B5011F09EC50058B701 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 2D56488711EF955C0058B701 /* mygame.h */;
-		name = "mygame.h: 22";
-		rLen = 18;
-		rLoc = 301;
-		rType = 0;
-		vrLen = 379;
-		vrLoc = 0;
 	};
 	2D564D7D11F0E1600058B701 /* IphTexture.cpp */ = {
 		isa = PBXFileReference;
@@ -1431,7 +1426,7 @@
 		vrLen = 950;
 		vrLoc = 46;
 	};
-	2D8C8F8E133905C500389825 /* PBXTextBookmark */ = {
+	2DD2F25B1343E738000B7262 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 2D56348E11EBC2680058B701 /* main.mm */;
 		name = "main.mm: 25";
@@ -1441,14 +1436,34 @@
 		vrLen = 499;
 		vrLoc = 0;
 	};
-	2D8C8F8F133905C500389825 /* PBXTextBookmark */ = {
+	2DD2F25C1343E738000B7262 /* XCBuildMessageTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 2D56348E11EBC2680058B701 /* main.mm */;
-		name = "main.mm: 25";
+		comments = "'Theora' does not name a type";
+		fRef = 2D56488711EF955C0058B701 /* mygame.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 21;
+		rType = 1;
+	};
+	2DD2F25D1343E738000B7262 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2DD2F25E1343E738000B7262 /* mygame.h */;
+		name = "mygame.h: 20";
 		rLen = 0;
-		rLoc = 499;
+		rLoc = 290;
 		rType = 0;
-		vrLen = 499;
+		vrLen = 379;
 		vrLoc = 0;
+	};
+	2DD2F25E1343E738000B7262 /* mygame.h */ = {
+		isa = PBXFileReference;
+		name = mygame.h;
+		path = "/techfront/SDK/seeddemos/SeedDemos-iPhone/../video/basic1/mygame.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {706, 612}}";
+			sepNavSelRange = "{290, 0}";
+			sepNavVisRange = "{0, 379}";
+		};
 	};
 }
