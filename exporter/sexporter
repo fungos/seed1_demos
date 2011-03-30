@@ -5,10 +5,10 @@ PLATFORM=`uname`
 
 if [ "$PLATFORM" == 'Linux' ]; then
 	if [ "$BIT64" == 'x86_64' ]; then
-		$0.lin64
+		$0.lin64 "$@"
 	else
-		$0.lin
+		$0.lin "$@"
 	fi
 else
-	$0.osx
+	$0.osx "$@"
 fi
