@@ -36,9 +36,17 @@ void MyGame::Setup(int argc, char **argv)
 	// FIXME: wchar_t/char/FilePath
 	{
 		FilePath tmpPath[MAX_FOLDER_SIZE];
+#if WIN32
+		_snwprintf(tmpPath, MAX_FOLDER_SIZE, L"%S%s/", pSystem->GetHomeFolder(), L"/MyPublisher");
+#else
 		snprintf(tmpPath, MAX_FOLDER_SIZE, "%s%s/", pSystem->GetHomeFolder(), "/MyPublisher");
+#endif
 		pFileSystem->MakeDirectory(tmpPath);
+#if WIN32
+		_snwprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, L"%S%s/", tmpPath, cConfig.GetApplicationTitle());
+#else
 		snprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, "%s%s/", tmpPath, cConfig.GetApplicationTitle());
+#endif
 		pFileSystem->MakeDirectory(pcSaveGameFolder);
 		pFileSystem->SetWriteableDirectory(pcSaveGameFolder);
 	}
