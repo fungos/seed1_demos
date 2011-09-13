@@ -26,7 +26,7 @@ class MyGame : public DemoBase
 		Label		lblMessage;
 		Font		fntMain;
 
-		char pcSaveGameFolder[MAX_FOLDER_SIZE];
+		FilePath pcSaveGameFolder[MAX_FOLDER_SIZE];
 };
 
 #endif // __MYGAME_H__
