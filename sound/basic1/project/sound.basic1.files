@@ -1,0 +1,8 @@
+Makefile.win
+Objects.in
+../mygame.cpp
+../mygame.h
+../../../common/demobase.cpp
+../../../common/demobase.h
+../../../common/main.cpp
+../../../common/sdl/assets.h
