@@ -19,14 +19,6 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-/*
-	sfxTheme.Load("theme.adpcm");
-	sfxTheme.SetVolume(0.1f);
-	sfxTheme.SetLoop(TRUE);
-	sfxTheme.Play();
-	pSoundSystem->Add(&sfxTheme);
-*/
-
 	sfxHelloWorld.Load(SFX_HELLOWORLD);
 	pSoundSystem->Add(&sfxHelloWorld);
 
@@ -38,12 +30,11 @@ BOOL MyGame::Initialize()
 
 	sfxHelloWorld.Play();
 	sfxPickup.SetVolume(0.1f);
-	
+
 	musTheme.Load(BGM_THEME);
 	musTheme.SetVolume(0.5f);
 	musTheme.SetAutoUnload(TRUE);
 	pSoundSystem->PlayMusic(&musTheme, 500);
-	Log("1");
 
 	return TRUE;
 }
@@ -51,8 +42,8 @@ BOOL MyGame::Initialize()
 BOOL MyGame::Update(f32 dt)
 {
 	iCount++;
-	
-	if ((iCount % 10) == 0) 
+
+	if ((iCount % 10) == 0)
 		sfxPickup.Play();
 
 	if (iCount == 300)
