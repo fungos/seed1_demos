@@ -20,7 +20,7 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 {
 	public:
 		DemoBase();
-		~DemoBase();
+		virtual ~DemoBase();
 
 		virtual BOOL Initialize();
 		virtual BOOL Update(f32 dt);
@@ -33,7 +33,7 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 
 		// IEventInputKeyboardListener
 		virtual void OnInputKeyboardRelease(const EventInputKeyboard *ev);
-		
+
 	private:
 		SEED_DISABLE_COPY(DemoBase);
 
@@ -44,7 +44,7 @@ class DemoBase : public IGameApp, public IEventSystemListener, public IEventInpu
 		Viewport	cViewport;
 		Renderer	cRenderer;
 		Sprite		sptLogo;
-		
+
 		f32 fInfoElapsedTime;
 };
 

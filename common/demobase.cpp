@@ -14,6 +14,7 @@ DemoBase::DemoBase()
 	//cConfig.bDebugSprite = TRUE;
 	cConfig.SetApplicationTitle("My awesome game");
 	cConfig.SetApplicationDescription("My awesome game description");
+	cConfig.SetPublisherName("MyPublisher");
 }
 
 DemoBase::~DemoBase()
@@ -26,7 +27,7 @@ BOOL DemoBase::Initialize()
 
 	pSystem->AddListener(this);
 	pInput->AddKeyboardListener(this);
-	
+
 	/* ------- Rendering Initialization ------- */
 	cScene.SetPriority(0);
 	cSceneStatic.SetPriority(20000);
@@ -61,26 +62,26 @@ BOOL DemoBase::Update(f32 dt)
 	{
 		Log("Memory Info: ");
 		pMemoryManager->Info();
-		
+
 		Log("Resource Memory: ");
 		pResourceManager->PrintUsedMemoryByResource();
-		
+
 		Log("Snapshot: ");
 		pDefaultPool->Print();
-	
+
 		fInfoElapsedTime = 0.0f;
 	}
-	
+
 	return TRUE;
 }
 
 BOOL DemoBase::Shutdown()
 {
 	sptLogo.Unload();
-	
+
 	pInput->RemoveKeyboardListener(this);
 	pSystem->RemoveListener(this);
-	
+
 	return IGameApp::Shutdown();
 }
 

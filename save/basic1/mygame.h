@@ -12,10 +12,10 @@ class MyGame : public DemoBase
 {
 	public:
 		MyGame();
-		~MyGame();
+		virtual ~MyGame();
 
-		virtual void Setup(int argc, char **argv);
 		virtual BOOL Initialize();
+		virtual BOOL Shutdown();
 
 		BOOL SaveSystemFlow();
 

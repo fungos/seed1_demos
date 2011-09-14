@@ -30,33 +30,19 @@ MyGame::~MyGame()
 {
 }
 
-void MyGame::Setup(int argc, char **argv)
+BOOL MyGame::Shutdown()
 {
-	// FIXME: This must be done magically by the SDK, user don't care and will be pissed off to do this kind of stuff.
-	// FIXME: wchar_t/char/FilePath
-	{
-		FilePath tmpPath[MAX_FOLDER_SIZE];
-#if WIN32
-		_snwprintf(tmpPath, MAX_FOLDER_SIZE, L"%S%s/", pSystem->GetHomeFolder(), L"/MyPublisher");
-#else
-		snprintf(tmpPath, MAX_FOLDER_SIZE, "%s%s/", pSystem->GetHomeFolder(), "/MyPublisher");
-#endif
-		pFileSystem->MakeDirectory(tmpPath);
-#if WIN32
-		_snwprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, L"%S%s/", tmpPath, cConfig.GetApplicationTitle());
-#else
-		snprintf(pcSaveGameFolder, MAX_FOLDER_SIZE, "%s%s/", tmpPath, cConfig.GetApplicationTitle());
-#endif
-		pFileSystem->MakeDirectory(pcSaveGameFolder);
-		pFileSystem->SetWriteableDirectory(pcSaveGameFolder);
-	}
+	fntMain.Unload();
 
-	pSaveSystem->SetTotalSlots(5);
+	return TRUE;
 }
 
 BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
+
+	pSaveSystem->Initialize(Cartridge8192b);
+	pSaveSystem->SetTotalSlots(5);
 	pSystem->SetLanguage(Seed::en_US);
 
 	fntMain.Load(FNT_FONT1);
@@ -91,7 +77,7 @@ BOOL MyGame::Initialize()
 	strncpy(slot.name, "Andressa", MY_GAME_NAME_LEN);
 	slot.level = 55;
 	pSaveSystem->Save(4, &slot, &shared);
-	
+
 	pSaveSystem->Load(2, &slot2, &shared);
 	pSaveSystem->Load(4, &slot3);
 	if (memcmp(&slot, &slot2, sizeof(slot)) == 0)
@@ -119,7 +105,7 @@ BOOL MyGame::SaveSystemFlow()
 {
 	MySlotStruct slot;
 	memset(&slot, '\0', sizeof(slot));
-	
+
 	MySharedStruct shared;
 	memset(&shared, '\0', sizeof(shared));
 
