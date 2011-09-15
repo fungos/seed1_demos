@@ -57,24 +57,24 @@ BOOL MyGame::Initialize()
 	this->SaveSystemFlow();
 
 	MySlotStruct slot, slot2, slot3;
-	memset(&slot, '\0', sizeof(slot));
-	memset(&slot2, '\0', sizeof(slot2));
-	memset(&slot3, '\0', sizeof(slot3));
+	MEMSET(&slot, '\0', sizeof(slot));
+	MEMSET(&slot2, '\0', sizeof(slot2));
+	MEMSET(&slot3, '\0', sizeof(slot3));
 	MySharedStruct shared;
-	memset(&shared, '\0', sizeof(shared));
+	MEMSET(&shared, '\0', sizeof(shared));
 
 	for (u32 i = 0; i < MY_GAME_RANKING_SIZE; i++)
 	{
-		strncpy(shared.entries[i].name, "Danny", MY_GAME_NAME_LEN);
+		STRLCPY(shared.entries[i].name, "Danny", MY_GAME_NAME_LEN);
 		shared.entries[i].time = shared.entries[i].score = 100 - (i * 10);
 	}
-	lblMessage.SetText(DIC_SAVECREATED); // Move to dictionary!
+	lblMessage.SetText(DIC_SAVECREATED);
 
-	strncpy(slot.name, "Patuti", MY_GAME_NAME_LEN);
+	STRLCPY(slot.name, "Patuti", MY_GAME_NAME_LEN);
 	slot.level = 10;
 	pSaveSystem->Save(2, &slot);
 
-	strncpy(slot.name, "Andressa", MY_GAME_NAME_LEN);
+	STRLCPY(slot.name, "Andressa", MY_GAME_NAME_LEN);
 	slot.level = 55;
 	pSaveSystem->Save(4, &slot, &shared);
 
@@ -104,10 +104,10 @@ BOOL MyGame::Initialize()
 BOOL MyGame::SaveSystemFlow()
 {
 	MySlotStruct slot;
-	memset(&slot, '\0', sizeof(slot));
+	MEMSET(&slot, '\0', sizeof(slot));
 
 	MySharedStruct shared;
-	memset(&shared, '\0', sizeof(shared));
+	MEMSET(&shared, '\0', sizeof(shared));
 
 	eCartridgeError error = pSaveSystem->Initialize(Seed::Cartridge512b);
 	if (error == Seed::ErrorNone)
