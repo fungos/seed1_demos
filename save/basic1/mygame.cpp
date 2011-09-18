@@ -34,7 +34,7 @@ BOOL MyGame::Shutdown()
 {
 	fntMain.Unload();
 
-	return TRUE;
+	return DemoBase::Shutdown();
 }
 
 BOOL MyGame::Initialize()
@@ -165,3 +165,4 @@ BOOL MyGame::SaveSystemFlow()
 
 	return FALSE;
 }
+

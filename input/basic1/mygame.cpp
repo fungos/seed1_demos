@@ -52,9 +52,9 @@ void MyGame::OnInputKeyboardPress(const EventInputKeyboard *ev)
 
 	if (k == Seed::KeyF5)
 	{
-		cResourceManager.Unload(Seed::ObjectImage);
+		//pResourceManager->Unload(Seed::ObjectImage);
 		pScreen->ToggleFullscreen();
-		cResourceManager.Reload(Seed::ObjectImage);
+		//pResourceManager->Reload(Seed::ObjectImage);
 	}
 
 	strText.Set(DIC_INPUTTEST);
