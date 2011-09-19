@@ -1,8 +1,6 @@
 PROJECT=save.basic1
 include Objects.in
-
-SEEDSDK = /media/d/SDK/
-TARGET = $(SEEDSDK)/seeddemos/bin/$(PROJECT)
+TARGET = ../../../bin/$(PROJECT)
 
 GCC = g++
 CFLAGS = -Wall -fPIC -g `sdl-config --cflags` $(CDEFS) -I$(SEEDSDK)/seed/include -I$(SEEDSDK)/seeddemos/common/sdl -I..

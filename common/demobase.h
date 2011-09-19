@@ -16,7 +16,7 @@ extern ISceneNode *pSceneStatic;
 
 using namespace Seed;
 
-class DemoBase : public IGameApp, public IEventSystemListener, public IEventInputKeyboardListener
+class DemoBase : public IEventSystemListener, public IEventInputKeyboardListener
 {
 	public:
 		DemoBase();
