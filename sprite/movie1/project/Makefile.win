@@ -1,0 +1,21 @@
+include Objects.in
+PROJECT=$(NAME).exe
+TARGET = ../../../bin/$(PROJECT)
+
+DEPENDENCY = $(SEEDSDK)/dependency/qtsdk/
+
+GCC = g++
+CFLAGS =  -Wall $(CDEFS) -I$(SEEDSDK)seed/include -I$(SEEDSDK)/seeddemos/common/sdl -I.. -I$(DEPENDENCY)../common/include -I$(DEPENDENCY)include
+CDEFS = -D_SDL_ -DDEBUG -DWIN32 $(LICENSE)
+LIBS = -lmingw32 -mwindows -lSeed -lSDLmain -lSDL.dll -lSDL_image -lOpenAL32 -lopengl32 -lBox2D
+CPPFLAGS = $(CFLAGS)
+LFLAGS = -L$(SEEDSDK)seed\bin -L$(DEPENDENCY)lib
+COMPILE = $(GCC) $(CFLAGS) -c
+
+all: $(TARGET)
+
+$(TARGET): $(OBJECTS)
+	$(GCC) -g -o $(TARGET) $(OBJECTS) $(CPPFLAGS) $(LFLAGS) $(LIBS)
+
+clean:
+	$(SEEDSDK)/seedtools/rmw $(OBJECTS) $(TARGET) *~

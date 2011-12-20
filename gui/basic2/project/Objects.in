@@ -1,3 +1,4 @@
+NAME=gui.basic2
 OBJECTS = \
 	../mygame.o \
 	../../../common/main.o \

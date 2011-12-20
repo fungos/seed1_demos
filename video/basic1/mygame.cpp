@@ -12,14 +12,19 @@ BOOL MyGame::Initialize()
 {
 	DemoBase::Initialize();
 
-	cVideo.Load("teste.ogv");
-	cVideo.PlayToFrame(980);
-	iFrames = cVideo.Size();
-	cVideo.GoToFrame(50);
-	Log("TOTAL: %d", iFrames);
-	//cVideo.GoToFrame(frames / 2);
-	cScene.Add(&cVideo);
-	pScreen->FadeIn();
+	if (cVideo.Load("teste.ogv"))
+	{
+		//cVideo.PlayToFrame(980);
+		iFrames = cVideo.Size();
+		//cVideo.GoToFrame(50);
+		cVideo.Play();
+		//cVideo.SetHeight(1.0f);
+		//cVideo.SetWidth(1.0f);
+		Log("TOTAL: %d", iFrames);
+		//cVideo.GoToFrame(frames / 2);
+		cScene.Add(&cVideo);
+		pScreen->FadeIn();
+	}
 
 	return TRUE;
 }
@@ -39,7 +44,7 @@ BOOL MyGame::Update(f32 dt)
 /*
 	if (iCount == 0) cVideo.Play();
 	if (iCount == 300) cVideo.Stop();
-	if (iCount == 600) 
+	if (iCount == 600)
 	{
 		//cVideo.GoToFrame(frames / 2);
 		cVideo.Play();
